@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>rob run offsets · api</title>
+<style>
+html,body{margin:0;background:#1e1e2e;color:#cdd6f4}
+html{scrollbar-width:none}
+body::-webkit-scrollbar{display:none;width:0;height:0}
+body{
+ font-family:Consolas,"Cascadia Mono","Courier New",monospace;
+ padding:16px 20px 48px;
+}
+h1{font-size:14px;font-weight:normal;color:#cba6f7;margin:0 0 6px}
+.sub{color:#a6adc8;font-size:11px;margin:0 0 14px}
+.sub a{color:#89b4fa;text-decoration:none}
+.sub a:hover{color:#b4befe}
+.status{color:#a6e3a1;font-size:12px;margin:0 0 12px}
+.status.err{color:#f38ba8}
+.meta{
+ color:#bac2de;font-size:12px;line-height:1.75;margin:0 0 16px;
+ border:1px solid #313244;background:#181825;padding:12px 14px;
+ border-radius:8px;
+ word-break:break-all;
+}
+.meta b{color:#89b4fa;font-weight:normal;display:inline-block;min-width:130px}
+.row{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 8px}
+a.btn,button.btn{
+ font:inherit;font-size:12px;color:#cdd6f4;background:#313244;border:1px solid #45475a;
+ padding:7px 12px;cursor:pointer;text-decoration:none;display:inline-block;border-radius:8px
+}
+a.btn:hover,button.btn:hover{border-color:#b4befe;color:#b4befe;background:#45475a}
+.hint{color:#6c7086;font-size:11px;margin:14px 0 10px}
+.paste{
+ white-space:pre;
+ font-size:12px;
+ line-height:1.4;
+ color:#cdd6f4;
+ border:1px solid #313244;
+ background:#11111b;
+ padding:14px 16px;
+ max-height:62vh;
+ overflow:auto;
+ user-select:text;
+ border-radius:8px;
+ scrollbar-width:thin;
+ scrollbar-color:#45475a #11111b;
+}
+.paste::-webkit-scrollbar{width:8px;height:8px}
+.paste::-webkit-scrollbar-track{background:#11111b}
+.paste::-webkit-scrollbar-thumb{background:#45475a;border:2px solid #11111b;border-radius:8px}
+.paste::-webkit-scrollbar-thumb:hover{background:#585b70}
+</style>
+</head>
+<body>
+<h1>auto update api</h1>
+<p class="sub">active offsets · <a href="../">back</a></p>
+<p class="status" id="status">loading ...</p>
+<div class="meta" id="meta"></div>
+<div class="row">
+ <a class="btn" id="file" href="offsets.json">offsets.json</a>
+ <button class="btn" id="copy-url" type="button">copy url</button>
+ <button class="btn" id="copy-json" type="button">copy json</button>
+</div>
+<p class="hint">GET this url. offsets is a map of name to integer. active is the current dump.</p>
+<pre class="paste" id="paste">loading offsets.json ...</pre>
+<script>
+function esc(s) {
+ return String(s).replace(/[&<>"']/g, function (c) {
+  return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c];
+ });
+}
+async function load() {
+ var st = document.getElementById("status");
+ var metaEl = document.getElementById("meta");
+ var paste = document.getElementById("paste");
+ var url = new URL("offsets.json", location.href).href;
+ try {
+  var r = await fetch("offsets.json", { cache: "no-store" });
+  if (!r.ok) throw new Error("offsets.json " + r.status);
+  var j = await r.json();
+  var text = JSON.stringify(j, null, 2);
+  st.textContent = "ok · " + j.count + " · " + j.dumped_at;
+  metaEl.innerHTML =
+   "<div><b>GET</b> " + esc(url) + "</div>" +
+   "<div><b>Game</b> " + esc(j.game) + "</div>" +
+   "<div><b>Active</b> " + esc(j.active) + "</div>" +
+   "<div><b>Dumped At</b> " + esc(j.dumped_at) + "</div>" +
+   "<div><b>Count</b> " + esc(j.count) + "</div>";
+  paste.textContent = text;
+  document.getElementById("copy-url").onclick = function () {
+   navigator.clipboard.writeText(url);
+   st.textContent = "copied url";
+  };
+  document.getElementById("copy-json").onclick = function () {
+   navigator.clipboard.writeText(text);
+   st.textContent = "copied json";
+  };
+ } catch (e) {
+  st.className = "status err";
+  st.textContent = "fail: " + e;
+  paste.textContent = "fail load offsets.json";
+ }
+}
+load();
+</script>
+</body>
+</html>

@@ -35,4 +35,23 @@ $doc = [ordered]@{
 }
 $json = $doc | ConvertTo-Json -Depth 6
 [IO.File]::WriteAllText((Join-Path $root "offsets.json"), $json)
+$flat = [ordered]@{}
+foreach ($name in $offs.Keys) {
+    $raw = [string]$offs[$name].value
+    if ($raw.StartsWith("0x") -or $raw.StartsWith("0X")) {
+        $flat[$name] = [int64]::Parse($raw.Substring(2), [Globalization.NumberStyles]::AllowHexSpecifier)
+    } else {
+        $flat[$name] = [int64]$raw
+    }
+}
+$api = [ordered]@{
+    game = "Rob Run"
+    active = $true
+    dumped_at = $when
+    count = $flat.Count
+    offsets = $flat
+}
+$apiDir = Join-Path $root "api"
+New-Item -ItemType Directory -Force -Path $apiDir | Out-Null
+[IO.File]::WriteAllText((Join-Path $apiDir "offsets.json"), ($api | ConvertTo-Json -Depth 6))
 Write-Host ("sdk {0} offsets, dumped {1}" -f $offs.Count, $when)
