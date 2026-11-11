@@ -68,23 +68,23 @@ a.btn:hover,button.btn:hover{border-color:#b4befe;color:#b4befe;background:#4547
 </head>
 <body>
 <h1>auto update api</h1>
-<p class="sub">active offsets · <a href="../">back</a></p>
+<p class="sub" data-en="active offsets · back is the link" data-en-html="active offsets · <a href=&quot;../&quot;>back</a>" data-ru-html="актуальные оффсеты · <a href=&quot;../&quot;>назад</a>">active offsets · <a href="../">back</a></p>
 <p class="status" id="status">loading ...</p>
 <div class="meta" id="meta"></div>
 <div class="row">
  <a class="btn" id="file" href="offsets.json">offsets.json</a>
- <button class="btn" id="copy-url" type="button">copy url</button>
- <button class="btn" id="copy-json" type="button">copy json</button>
+ <button class="btn" id="copy-url" type="button" data-en="copy url" data-ru="копировать ссылку">copy url</button>
+ <button class="btn" id="copy-json" type="button" data-en="copy json" data-ru="копировать json">copy json</button>
 </div>
-<p class="hint">GET this url. offsets is a map of name to integer. active is the current dump.</p>
+<p class="hint" data-en="GET this url. offsets is a map of name to integer. active is the current dump." data-ru="GET по этой ссылке. offsets это имя в число. active значит текущий дамп.">GET this url. offsets is a map of name to integer. active is the current dump.</p>
 <pre class="paste" id="paste">loading offsets.json ...</pre>
-<section class="guide">
-<h2>как поставить</h2>
-<p>В чите одна ссылка: <code>https://awaky1337.github.io/rob-run-offsets/api/offsets.json</code>. При старте сделай GET и не бери ответ из кеша. Разбери JSON. Если <code>active</code> не true, локальную таблицу не трогай.</p>
-<p><code>offsets</code> это имя в число. Имена те же, что в <code>offsets.hpp</code>: <code>battle_model_ti</code>, <code>cam_pos</code> и остальные. Подставь число вместо зашитого константного значения. Шестнадцатеричные в этом ответе уже переведены: <code>0x90</code> приходит как <code>144</code>.</p>
-<p>Запиши ответ на диск. Если сеть не ответила, читай последний сохранённый файл и работай с ним. Сравни <code>dumped_at</code> с тем, что уже лежит у чита. Дата та же, таблицу заново не переписывай.</p>
-<h2>как это работает</h2>
-<p>Это актуальный выбранный список, не страница старых версий и не полный <code>dump.cs</code>. Файл сам ничего не считает. Он меняется, когда выкладывается новый дамп. Чит качает его на старте или по своей кнопке и между запусками держит последнюю удачную копию.</p>
+<section class="guide" data-en-html="<h2>how to install</h2><p>The cheat uses one URL: <code>https://awaky1337.github.io/rob-run-offsets/api/offsets.json</code>. On startup send a GET and do not take the response from cache. Parse the JSON. If <code>active</code> is not true, leave the local table alone.</p><p><code>offsets</code> is a name mapped to a number. The names match <code>offsets.hpp</code>: <code>battle_model_ti</code>, <code>cam_pos</code>, and the rest. Use the number in place of the hardcoded constant. Hex values in this response are already converted: <code>0x90</code> arrives as <code>144</code>.</p><p>Write the response to disk. If the network fails, read the last saved file and keep using it. Compare <code>dumped_at</code> with the copy the cheat already has. If the date is the same, do not rewrite the table.</p><h2>how it works</h2><p>This is the current selected list, not the old-version page and not the full <code>dump.cs</code>. The file does not calculate anything. It changes when a new dump is published. The cheat downloads it on startup or from its own button, and between launches it keeps the last successful copy.</p>" data-ru-html="<h2>как поставить</h2><p>В чите одна ссылка: <code>https://awaky1337.github.io/rob-run-offsets/api/offsets.json</code>. При старте сделай GET и не бери ответ из кеша. Разбери JSON. Если <code>active</code> не true, локальную таблицу не трогай.</p><p><code>offsets</code> это имя в число. Имена те же, что в <code>offsets.hpp</code>: <code>battle_model_ti</code>, <code>cam_pos</code> и остальные. Подставь число вместо зашитого константного значения. Шестнадцатеричные в этом ответе уже переведены: <code>0x90</code> приходит как <code>144</code>.</p><p>Запиши ответ на диск. Если сеть не ответила, читай последний сохранённый файл и работай с ним. Сравни <code>dumped_at</code> с тем, что уже лежит у чита. Дата та же, таблицу заново не переписывай.</p><h2>как это работает</h2><p>Это актуальный выбранный список, не страница старых версий и не полный <code>dump.cs</code>. Файл сам ничего не считает. Он меняется, когда выкладывается новый дамп. Чит качает его на старте или по своей кнопке и между запусками держит последнюю удачную копию.</p>">
+<h2>how to install</h2>
+<p>The cheat uses one URL: <code>https://awaky1337.github.io/rob-run-offsets/api/offsets.json</code>. On startup send a GET and do not take the response from cache. Parse the JSON. If <code>active</code> is not true, leave the local table alone.</p>
+<p><code>offsets</code> is a name mapped to a number. The names match <code>offsets.hpp</code>: <code>battle_model_ti</code>, <code>cam_pos</code>, and the rest. Use the number in place of the hardcoded constant. Hex values in this response are already converted: <code>0x90</code> arrives as <code>144</code>.</p>
+<p>Write the response to disk. If the network fails, read the last saved file and keep using it. Compare <code>dumped_at</code> with the copy the cheat already has. If the date is the same, do not rewrite the table.</p>
+<h2>how it works</h2>
+<p>This is the current selected list, not the old-version page and not the full <code>dump.cs</code>. The file does not calculate anything. It changes when a new dump is published. The cheat downloads it on startup or from its own button, and between launches it keeps the last successful copy.</p>
 </section>
 <script>
 function esc(s) {
@@ -126,5 +126,6 @@ async function load() {
 }
 load();
 </script>
+<script src="../lang.js"></script>
 </body>
 </html>

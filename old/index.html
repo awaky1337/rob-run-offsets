@@ -29,7 +29,7 @@ a.btn:hover{border-color:#b4befe;color:#b4befe;background:#45475a}
 </head>
 <body>
 <h1>rob run offsets</h1>
-<p class="sub">старые версии · <a href="../">активная</a></p>
+<p class="sub" data-en-html="old versions · <a href=&quot;../&quot;>active</a>" data-ru-html="старые версии · <a href=&quot;../&quot;>актуальная</a>">old versions · <a href="../">active</a></p>
 <p class="status" id="status">loading ...</p>
 <div class="row" id="list"></div>
 <script>
@@ -47,7 +47,8 @@ async function load() {
   var rows = await r.json();
   st.textContent = rows.length + " old";
   list.innerHTML = rows.map(function (v) {
-   return '<a class="btn" href="' + esc(v.id) + '/">' + esc(v.title) + ' · ' + esc(v.total) + ' · ' + esc(v.note) + '</a>';
+  var note = window.rrLang === "ru" ? (v.note_ru || v.note || "") : (v.note_en || v.note || "");
+   return '<a class="btn" href="' + esc(v.id) + '/">' + esc(v.title) + ' · ' + esc(v.total) + ' · ' + esc(note) + '</a>';
   }).join("");
  } catch (e) {
   st.className = "status err";
@@ -55,6 +56,8 @@ async function load() {
  }
 }
 load();
+document.addEventListener("rr-lang", load);
 </script>
+<script src="../lang.js"></script>
 </body>
 </html>
