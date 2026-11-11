@@ -1,0 +1,1021 @@
+{
+    "Game":  "Rob Run",
+    "Dumped At":  "2026-11-11 23:50",
+    "Dumped With":  "Il2CppDumper",
+    "Dumper Version":  "3.2.1",
+    "Total Offsets":  253,
+    "Offsets":  {
+                    "battle_model_ti":  {
+                                            "value":  "136138568",
+                                            "note":  ""
+                                        },
+                    "battle_entities":  {
+                                            "value":  "0x90",
+                                            "note":  ""
+                                        },
+                    "battle_camera":  {
+                                          "value":  "0x358",
+                                          "note":  ""
+                                      },
+                    "battle_input":  {
+                                         "value":  "0x50",
+                                         "note":  ""
+                                     },
+                    "char_private":  {
+                                         "value":  "0x10",
+                                         "note":  "BattleCharacterModel.PrivateModel"
+                                     },
+                    "private_random":  {
+                                           "value":  "0x218",
+                                           "note":  "BattleCharacterPrivateModel.Random"
+                                       },
+                    "private_spread":  {
+                                           "value":  "0x220",
+                                           "note":  "BattleCharacterPrivateModel.WeaponSpreadArgsModel"
+                                       },
+                    "random_seed":  {
+                                        "value":  "0x10",
+                                        "note":  "RandomModel._seed"
+                                    },
+                    "spread_radius":  {
+                                          "value":  "0x14",
+                                          "note":  "WeaponSpreadArgsModel.Spread"
+                                      },
+                    "spread_off_x":  {
+                                         "value":  "0x20",
+                                         "note":  "WeaponSpreadArgsModel.ShotSpreadOffsetX"
+                                     },
+                    "spread_off_y":  {
+                                         "value":  "0x24",
+                                         "note":  "WeaponSpreadArgsModel.ShotSpreadOffsetY"
+                                     },
+                    "spread_state":  {
+                                         "value":  "0x18",
+                                         "note":  "WeaponSpreadArgsModel.StateSpread"
+                                     },
+                    "state_min":  {
+                                      "value":  "0x10",
+                                      "note":  "WeaponStateSpread.Min"
+                                  },
+                    "state_max":  {
+                                      "value":  "0x14",
+                                      "note":  "WeaponStateSpread.Max"
+                                  },
+                    "item_weapon_fn":  {
+                                           "value":  "0x50",
+                                           "note":  "InventoryItemDescription.WeaponFunc"
+                                       },
+                    "weapon_spread_fn":  {
+                                             "value":  "0x70",
+                                             "note":  "WeaponDescription.SpreadFunc"
+                                         },
+                    "spread_value":  {
+                                         "value":  "0x20",
+                                         "note":  "WeaponSpreadDescription.Value"
+                                     },
+                    "shot_inc":  {
+                                     "value":  "0x40",
+                                     "note":  "WeaponSpread.ShotInc"
+                                 },
+                    "tick_dec":  {
+                                     "value":  "0x44",
+                                     "note":  "WeaponSpread.TickDec"
+                                 },
+                    "char_shot_args":  {
+                                           "value":  "0xF8",
+                                           "note":  "BattleCharacterModel.ShotArgsModel"
+                                       },
+                    "shot_args_pos":  {
+                                          "value":  "0x10",
+                                          "note":  "ShotArgsModel._position"
+                                      },
+                    "shot_args_dir":  {
+                                          "value":  "0x18",
+                                          "note":  "ShotArgsModel._direction"
+                                      },
+                    "char_shot_interp":  {
+                                             "value":  "0x108",
+                                             "note":  "BattleCharacterModel.ShotInterpolationModel"
+                                         },
+                    "interp_pos":  {
+                                       "value":  "0x10",
+                                       "note":  "ShotInterpolationModel._transform"
+                                   },
+                    "interp_look":  {
+                                        "value":  "0x1C",
+                                        "note":  "ShotInterpolationModel._lookDirection"
+                                    },
+                    "weapon_descs_ti":  {
+                                            "value":  "135947528",
+                                            "note":  "WeaponDescriptions TypeInfo"
+                                        },
+                    "weapon_shot_cd":  {
+                                           "value":  "0x20",
+                                           "note":  "WeaponDescription.ShotCooldown"
+                                       },
+                    "battle_shot_auto":  {
+                                             "value":  "0x1F8",
+                                             "note":  ""
+                                         },
+                    "battle_shot_single":  {
+                                               "value":  "0x200",
+                                               "note":  ""
+                                           },
+                    "shot_look":  {
+                                      "value":  "0x20",
+                                      "note":  ""
+                                  },
+                    "input_look":  {
+                                       "value":  "0x18",
+                                       "note":  "BattleInputModel._lookDirection, yaw and pitch in radians"
+                                   },
+                    "input_look_changed":  {
+                                               "value":  "0x32",
+                                               "note":  ""
+                                           },
+                    "input_shot_look":  {
+                                            "value":  "0x38",
+                                            "note":  ""
+                                        },
+                    "look_skip":  {
+                                      "value":  "0xA81E76",
+                                      "note":  ""
+                                  },
+                    "shot_store_manual":  {
+                                              "value":  "0xA81FDD",
+                                              "note":  ""
+                                          },
+                    "shot_store_auto":  {
+                                            "value":  "0xA732F7",
+                                            "note":  ""
+                                        },
+                    "shot_cur_xy_manual":  {
+                                               "value":  "0xA81FA0",
+                                               "note":  ""
+                                           },
+                    "shot_cur_z_manual":  {
+                                              "value":  "0xA81FA9",
+                                              "note":  ""
+                                          },
+                    "shot_prev_xy_manual":  {
+                                                "value":  "0xA81FB2",
+                                                "note":  ""
+                                            },
+                    "shot_prev_z_manual":  {
+                                               "value":  "0xA81FBB",
+                                               "note":  ""
+                                           },
+                    "shot_cur_xy_auto":  {
+                                             "value":  "0xA732B1",
+                                             "note":  ""
+                                         },
+                    "shot_cur_z_auto":  {
+                                            "value":  "0xA732BA",
+                                            "note":  ""
+                                        },
+                    "shot_prev_xy_auto":  {
+                                              "value":  "0xA732C3",
+                                              "note":  ""
+                                          },
+                    "shot_prev_z_auto":  {
+                                             "value":  "0xA732CC",
+                                             "note":  ""
+                                         },
+                    "spread_fn":  {
+                                      "value":  "0x431C410",
+                                      "note":  "ApplySpreadToShotDirection"
+                                  },
+                    "spread_mul_x":  {
+                                         "value":  "0x431C5A4",
+                                         "note":  "ApplySpreadToShotDirection, sx *= spread"
+                                     },
+                    "spread_mul_y":  {
+                                         "value":  "0x431C5D2",
+                                         "note":  "sy *= spread"
+                                     },
+                    "recoil_upd":  {
+                                       "value":  "0xB10BE0",
+                                       "note":  "SpriteRecoilModelUpdater.Update"
+                                   },
+                    "cam_pos":  {
+                                    "value":  "0x10",
+                                    "note":  ""
+                                },
+                    "cam_fwd":  {
+                                    "value":  "0x3C",
+                                    "note":  ""
+                                },
+                    "cam_right":  {
+                                      "value":  "0x48",
+                                      "note":  ""
+                                  },
+                    "cam_up":  {
+                                   "value":  "0x54",
+                                   "note":  ""
+                               },
+                    "world_entities":  {
+                                           "value":  "0x60",
+                                           "note":  ""
+                                       },
+                    "player":  {
+                                   "value":  "0xD0",
+                                   "note":  ""
+                               },
+                    "battle_characters":  {
+                                              "value":  "0x18",
+                                              "note":  ""
+                                          },
+                    "player_server":  {
+                                          "value":  "0x20",
+                                          "note":  ""
+                                      },
+                    "dict_entries":  {
+                                         "value":  "0x18",
+                                         "note":  ""
+                                     },
+                    "entry_key":  {
+                                      "value":  "8",
+                                      "note":  ""
+                                  },
+                    "entry_value":  {
+                                        "value":  "16",
+                                        "note":  ""
+                                    },
+                    "entry_size":  {
+                                       "value":  "24",
+                                       "note":  ""
+                                   },
+                    "arr_data":  {
+                                     "value":  "0x20",
+                                     "note":  ""
+                                 },
+                    "char_id":  {
+                                    "value":  "0x38",
+                                    "note":  ""
+                                },
+                    "char_data":  {
+                                      "value":  "0x40",
+                                      "note":  ""
+                                  },
+                    "char_cfg":  {
+                                     "value":  "0x48",
+                                     "note":  ""
+                                 },
+                    "data_common":  {
+                                        "value":  "0x20",
+                                        "note":  "BattleCharacterData.CommonData"
+                                    },
+                    "common_role":  {
+                                        "value":  "0x20",
+                                        "note":  "BattleCharacterCommonData.Role"
+                                    },
+                    "cfg_physics":  {
+                                        "value":  "0x18",
+                                        "note":  ""
+                                    },
+                    "stand_len":  {
+                                      "value":  "0x1C",
+                                      "note":  ""
+                                  },
+                    "replicated":  {
+                                       "value":  "0x60",
+                                       "note":  ""
+                                   },
+                    "repl_pos":  {
+                                     "value":  "0x10",
+                                     "note":  ""
+                                 },
+                    "prim_value":  {
+                                       "value":  "0x18",
+                                       "note":  ""
+                                   },
+                    "updater_ti":  {
+                                       "value":  "136125104",
+                                       "note":  ""
+                                   },
+                    "updater_battle":  {
+                                           "value":  "0x70",
+                                           "note":  ""
+                                       },
+                    "view_updaters":  {
+                                          "value":  "0x38",
+                                          "note":  ""
+                                      },
+                    "view_content":  {
+                                         "value":  "0xA8",
+                                         "note":  ""
+                                     },
+                    "content_value":  {
+                                          "value":  "0x18",
+                                          "note":  ""
+                                      },
+                    "head_pos":  {
+                                     "value":  "0xE8",
+                                     "note":  ""
+                                 },
+                    "cached_ptr":  {
+                                       "value":  "0x10",
+                                       "note":  ""
+                                   },
+                    "movement_view":  {
+                                          "value":  "0x20",
+                                          "note":  ""
+                                      },
+                    "move_transform":  {
+                                           "value":  "0x20",
+                                           "note":  ""
+                                       },
+                    "tr_hier":  {
+                                    "value":  "0x28",
+                                    "note":  "index dword follows at +0x30"
+                                },
+                    "hier_list":  {
+                                      "value":  "0x18",
+                                      "note":  "parents ptr follows at +0x20"
+                                  },
+                    "trs_size":  {
+                                     "value":  "0x30",
+                                     "note":  ""
+                                 },
+                    "hier_ptrs":  {
+                                      "value":  "0x30",
+                                      "note":  "transform pointer per index"
+                                  },
+                    "hier_cnt":  {
+                                     "value":  "0x28",
+                                     "note":  "pointer to the uint32 node count"
+                                 },
+                    "slots":  {
+                                  "value":  "0x248",
+                                  "note":  ""
+                              },
+                    "slot_ents":  {
+                                      "value":  "0x18",
+                                      "note":  ""
+                                  },
+                    "slot_data":  {
+                                      "value":  "0x10",
+                                      "note":  ""
+                                  },
+                    "slot_nick":  {
+                                      "value":  "0x30",
+                                      "note":  ""
+                                  },
+                    "str_len":  {
+                                    "value":  "0x10",
+                                    "note":  ""
+                                },
+                    "str_chars":  {
+                                      "value":  "0x14",
+                                      "note":  ""
+                                  },
+                    "gc_nsects":  {
+                                      "value":  "0x8635DA8",
+                                      "note":  "Boehm GC_n_heap_sects"
+                                  },
+                    "gc_sects":  {
+                                     "value":  "0x86BE960",
+                                     "note":  "GC_heap_sects {start, bytes}"
+                                 },
+                    "gc_max_sects":  {
+                                         "value":  "0x14000",
+                                         "note":  ""
+                                     },
+                    "peb_ldr":  {
+                                    "value":  "0x18",
+                                    "note":  ""
+                                },
+                    "ldr_list":  {
+                                     "value":  "0x20",
+                                     "note":  ""
+                                 },
+                    "mod_base":  {
+                                     "value":  "0x20",
+                                     "note":  ""
+                                 },
+                    "mod_size":  {
+                                     "value":  "0x30",
+                                     "note":  ""
+                                 },
+                    "mod_name_len":  {
+                                         "value":  "0x48",
+                                         "note":  ""
+                                     },
+                    "mod_name":  {
+                                     "value":  "0x50",
+                                     "note":  ""
+                                 },
+                    "ents_models":  {
+                                        "value":  "0x50",
+                                        "note":  "BattleEntitiesModel._models"
+                                    },
+                    "entity_client":  {
+                                          "value":  "0x20",
+                                          "note":  "BattleCharacterEntityModel.ClientModel"
+                                      },
+                    "client_set_move":  {
+                                            "value":  "0x30",
+                                            "note":  "CharacterClientModel.SetMovement"
+                                        },
+                    "set_move_x":  {
+                                       "value":  "0x10",
+                                       "note":  "y +0x14, z +0x18, vx +0x1C, vz +0x20, ts +0x28"
+                                   },
+                    "cmcore_ti":  {
+                                      "value":  "135657128",
+                                      "note":  "CinemachineCore TypeInfo"
+                                  },
+                    "il2_statics":  {
+                                        "value":  "0xB8",
+                                        "note":  "Il2CppClass.static_fields"
+                                    },
+                    "cmcore_inst":  {
+                                        "value":  "0x8",
+                                        "note":  "CinemachineCore.sInstance"
+                                    },
+                    "cmcore_brains":  {
+                                          "value":  "0x10",
+                                          "note":  "CinemachineCore.mActiveBrains"
+                                      },
+                    "list_items":  {
+                                       "value":  "0x10",
+                                       "note":  "List\u003cT\u003e._items"
+                                   },
+                    "list_size":  {
+                                      "value":  "0x18",
+                                      "note":  "List\u003cT\u003e._size"
+                                  },
+                    "brain_cam":  {
+                                      "value":  "0x50",
+                                      "note":  "CinemachineBrain.m_OutputCamera"
+                                  },
+                    "cam_fov":  {
+                                    "value":  "0x170",
+                                    "note":  "native Camera m_VerticalFOV"
+                                },
+                    "item_desc_ti":  {
+                                         "value":  "136298336",
+                                         "note":  "InventoryItemDescriptions TypeInfo"
+                                     },
+                    "slot_ti":  {
+                                    "value":  "136314248",
+                                    "note":  "InventorySlot TypeInfo"
+                                },
+                    "desc_type":  {
+                                      "value":  "0x20",
+                                      "note":  ""
+                                  },
+                    "desc_rarity":  {
+                                        "value":  "0x30",
+                                        "note":  ""
+                                    },
+                    "desc_ammo_fn":  {
+                                         "value":  "0x68",
+                                         "note":  ""
+                                     },
+                    "desc_price_fn":  {
+                                          "value":  "0x78",
+                                          "note":  ""
+                                      },
+                    "desc_sell_fn":  {
+                                         "value":  "0x80",
+                                         "note":  ""
+                                     },
+                    "delegate_target":  {
+                                            "value":  "0x20",
+                                            "note":  ""
+                                        },
+                    "enum_list":  {
+                                      "value":  "0x10",
+                                      "note":  ""
+                                  },
+                    "w_containers":  {
+                                         "value":  "0x20",
+                                         "note":  ""
+                                     },
+                    "w_vehicles":  {
+                                       "value":  "0x58",
+                                       "note":  ""
+                                   },
+                    "w_cars":  {
+                                   "value":  "0x60",
+                                   "note":  ""
+                               },
+                    "car_desc":  {
+                                     "value":  "0x78",
+                                     "note":  ""
+                                 },
+                    "w_static_loot":  {
+                                          "value":  "0x98",
+                                          "note":  ""
+                                      },
+                    "w_random_loot":  {
+                                          "value":  "0xA0",
+                                          "note":  ""
+                                      },
+                    "w_cargos":  {
+                                     "value":  "0xC8",
+                                     "note":  ""
+                                 },
+                    "w_safes":  {
+                                    "value":  "0x110",
+                                    "note":  ""
+                                },
+                    "w_container_inv":  {
+                                            "value":  "0x168",
+                                            "note":  ""
+                                        },
+                    "w_grenades":  {
+                                       "value":  "0x1A0",
+                                       "note":  ""
+                                   },
+                    "w_events":  {
+                                     "value":  "0x260",
+                                     "note":  ""
+                                 },
+                    "w_cash":  {
+                                   "value":  "0x268",
+                                   "note":  ""
+                               },
+                    "c_desc":  {
+                                   "value":  "0x18",
+                                   "note":  ""
+                               },
+                    "c_pos":  {
+                                  "value":  "0x28",
+                                  "note":  ""
+                              },
+                    "c_unlock":  {
+                                     "value":  "0x30",
+                                     "note":  ""
+                                 },
+                    "c_empty":  {
+                                    "value":  "0x38",
+                                    "note":  ""
+                                },
+                    "c_drill":  {
+                                    "value":  "0x40",
+                                    "note":  ""
+                                },
+                    "c_inv_id":  {
+                                     "value":  "0x24",
+                                     "note":  ""
+                                 },
+                    "cinv_inventory":  {
+                                           "value":  "0x18",
+                                           "note":  ""
+                                       },
+                    "veh_transform":  {
+                                          "value":  "0x28",
+                                          "note":  ""
+                                      },
+                    "veh_owner":  {
+                                      "value":  "0x40",
+                                      "note":  ""
+                                  },
+                    "veh_role":  {
+                                     "value":  "0x50",
+                                     "note":  ""
+                                 },
+                    "veh_cargo":  {
+                                      "value":  "0xE8",
+                                      "note":  ""
+                                  },
+                    "veh_trunk":  {
+                                      "value":  "0x110",
+                                      "note":  ""
+                                  },
+                    "veh_type":  {
+                                     "value":  "0x118",
+                                     "note":  ""
+                                 },
+                    "veh_unowned":  {
+                                        "value":  "0x90",
+                                        "note":  ""
+                                    },
+                    "veh_rented":  {
+                                       "value":  "0x120",
+                                       "note":  ""
+                                   },
+                    "owner_pub":  {
+                                      "value":  "0x10",
+                                      "note":  ""
+                                  },
+                    "slot_pub":  {
+                                     "value":  "0x28",
+                                     "note":  ""
+                                 },
+                    "item_in_hands":  {
+                                          "value":  "0x170",
+                                          "note":  "BattleCharacterModel.ItemInHandsModel"
+                                      },
+                    "bc_sprint":  {
+                                      "value":  "0x148",
+                                      "note":  ""
+                                  },
+                    "bc_click":  {
+                                     "value":  "0x1C0",
+                                     "note":  "BattleCharacterModel.WeaponClickTickIndex"
+                                 },
+                    "bc_reload":  {
+                                      "value":  "0x158",
+                                      "note":  ""
+                                  },
+                    "bc_crouch":  {
+                                      "value":  "0x160",
+                                      "note":  ""
+                                  },
+                    "bc_armor":  {
+                                     "value":  "0x1B8",
+                                     "note":  ""
+                                 },
+                    "bc_vehicle":  {
+                                       "value":  "0x1C8",
+                                       "note":  ""
+                                   },
+                    "bc_arrest":  {
+                                      "value":  "0x250",
+                                      "note":  ""
+                                  },
+                    "bc_melee":  {
+                                     "value":  "0x288",
+                                     "note":  ""
+                                 },
+                    "bc_knock":  {
+                                     "value":  "0x298",
+                                     "note":  ""
+                                 },
+                    "ko_phase":  {
+                                     "value":  "0x18",
+                                     "note":  ""
+                                 },
+                    "ko_surrender":  {
+                                         "value":  "0x70",
+                                         "note":  ""
+                                     },
+                    "cr_down":  {
+                                    "value":  "0x10",
+                                    "note":  ""
+                                },
+                    "wr_state":  {
+                                     "value":  "0x10",
+                                     "note":  ""
+                                 },
+                    "mel_hit":  {
+                                    "value":  "0x10",
+                                    "note":  ""
+                                },
+                    "inv_ent":  {
+                                    "value":  "0x10",
+                                    "note":  ""
+                                },
+                    "arr_state":  {
+                                      "value":  "0x10",
+                                      "note":  ""
+                                  },
+                    "item_wrap":  {
+                                      "value":  "0x10",
+                                      "note":  "ItemInHandsModel.Current"
+                                  },
+                    "item_data":  {
+                                      "value":  "0x10",
+                                      "note":  "EquipItemModel._data"
+                                  },
+                    "ident_id":  {
+                                     "value":  "0x10",
+                                     "note":  "Identified.Id"
+                                 },
+                    "rdm_models":  {
+                                       "value":  "0x10",
+                                       "note":  "ReadOnlyDictionaryModel._models (generic, dump prints 0x0)"
+                                   },
+                    "dm_value":  {
+                                     "value":  "0x10",
+                                     "note":  "DescriptionModel.Value (generic)"
+                                 },
+                    "pm_data":  {
+                                    "value":  "0x10",
+                                    "note":  "PrimitiveModel._data (generic)"
+                                },
+                    "w_loots":  {
+                                    "value":  "0x38",
+                                    "note":  ""
+                                },
+                    "w_vloots":  {
+                                     "value":  "0x40",
+                                     "note":  ""
+                                 },
+                    "w_vtrunks":  {
+                                      "value":  "0xC0",
+                                      "note":  ""
+                                  },
+                    "w_storage_by_inv":  {
+                                             "value":  "0x3A8",
+                                             "note":  ""
+                                         },
+                    "w_storage_inv":  {
+                                          "value":  "0x130",
+                                          "note":  ""
+                                      },
+                    "w_plot_by_inv":  {
+                                          "value":  "0x3B0",
+                                          "note":  ""
+                                      },
+                    "w_plot_inv":  {
+                                       "value":  "0x138",
+                                       "note":  ""
+                                   },
+                    "w_shelvings":  {
+                                        "value":  "0x148",
+                                        "note":  ""
+                                    },
+                    "w_loot_inv":  {
+                                       "value":  "0x160",
+                                       "note":  ""
+                                   },
+                    "w_vloot_inv":  {
+                                        "value":  "0x170",
+                                        "note":  ""
+                                    },
+                    "w_furn":  {
+                                   "value":  "0x220",
+                                   "note":  ""
+                               },
+                    "w_furn_inv":  {
+                                       "value":  "0x228",
+                                       "note":  ""
+                                   },
+                    "w_bloot":  {
+                                    "value":  "0x238",
+                                    "note":  ""
+                                },
+                    "w_bloot_inv":  {
+                                        "value":  "0x240",
+                                        "note":  ""
+                                    },
+                    "im_slots":  {
+                                     "value":  "0x18",
+                                     "note":  "InventoryModel.Slots"
+                                 },
+                    "ism_item":  {
+                                     "value":  "0x18",
+                                     "note":  "InventorySlotModel.ItemModel"
+                                 },
+                    "isi_data":  {
+                                     "value":  "0x10",
+                                     "note":  "InventorySlotItemModel._data"
+                                 },
+                    "desc_stack":  {
+                                       "value":  "0x34",
+                                       "note":  ""
+                                   },
+                    "desc_dur":  {
+                                     "value":  "0x90",
+                                     "note":  ""
+                                 },
+                    "desc_has_dur":  {
+                                         "value":  "0x94",
+                                         "note":  ""
+                                     },
+                    "ammo_base":  {
+                                      "value":  "0x20",
+                                      "note":  ""
+                                  },
+                    "ammo_mod_fn":  {
+                                        "value":  "0x28",
+                                        "note":  ""
+                                    },
+                    "isp_mod":  {
+                                    "value":  "0x20",
+                                    "note":  ""
+                                },
+                    "dc_mod":  {
+                                   "value":  "0x10",
+                                   "note":  "closure of InventoryItemDescriptions.New: sellPriceModifier"
+                               },
+                    "dc_ammo":  {
+                                    "value":  "0x38",
+                                    "note":  "closure of InventoryItemDescriptions.New: ammo"
+                                },
+                    "lo_taken":  {
+                                     "value":  "0x10",
+                                     "note":  ""
+                                 },
+                    "slo_desc":  {
+                                     "value":  "0x18",
+                                     "note":  ""
+                                 },
+                    "rlo_item":  {
+                                     "value":  "0x18",
+                                     "note":  ""
+                                 },
+                    "rlo_desc":  {
+                                     "value":  "0x20",
+                                     "note":  ""
+                                 },
+                    "slod_fn":  {
+                                    "value":  "0x28",
+                                    "note":  ""
+                                },
+                    "slod_pos":  {
+                                     "value":  "0x30",
+                                     "note":  ""
+                                 },
+                    "rlod_pos":  {
+                                     "value":  "0x24",
+                                     "note":  ""
+                                 },
+                    "loid_item_fn":  {
+                                         "value":  "0x20",
+                                         "note":  ""
+                                     },
+                    "loid_count":  {
+                                       "value":  "0x28",
+                                       "note":  ""
+                                   },
+                    "loid_dur":  {
+                                     "value":  "0x2C",
+                                     "note":  ""
+                                 },
+                    "loot_tr":  {
+                                    "value":  "0x20",
+                                    "note":  ""
+                                },
+                    "loot_role":  {
+                                      "value":  "0x38",
+                                      "note":  ""
+                                  },
+                    "tr_x":  {
+                                 "value":  "0x10",
+                                 "note":  ""
+                             },
+                    "tr_y":  {
+                                 "value":  "0x18",
+                                 "note":  ""
+                             },
+                    "tr_z":  {
+                                 "value":  "0x20",
+                                 "note":  ""
+                             },
+                    "li_name":  {
+                                    "value":  "0x18",
+                                    "note":  ""
+                                },
+                    "li_inv":  {
+                                   "value":  "0x30",
+                                   "note":  ""
+                               },
+                    "vl_tr":  {
+                                  "value":  "0x20",
+                                  "note":  ""
+                              },
+                    "vli_inv":  {
+                                    "value":  "0x18",
+                                    "note":  ""
+                                },
+                    "vli_nick":  {
+                                     "value":  "0x30",
+                                     "note":  ""
+                                 },
+                    "vt_inv":  {
+                                   "value":  "0x20",
+                                   "note":  ""
+                               },
+                    "vt_nick":  {
+                                    "value":  "0x40",
+                                    "note":  ""
+                                },
+                    "lcd_cd_fn":  {
+                                      "value":  "0x28",
+                                      "note":  ""
+                                  },
+                    "lcd_pos":  {
+                                    "value":  "0x30",
+                                    "note":  ""
+                                },
+                    "sb_desc":  {
+                                    "value":  "0x20",
+                                    "note":  ""
+                                },
+                    "sb_empty":  {
+                                     "value":  "0x38",
+                                     "note":  ""
+                                 },
+                    "sbi_inv":  {
+                                    "value":  "0x18",
+                                    "note":  ""
+                                },
+                    "lsd_pos":  {
+                                    "value":  "0x34",
+                                    "note":  ""
+                                },
+                    "lsd_desc":  {
+                                     "value":  "0x18",
+                                     "note":  ""
+                                 },
+                    "pc_pos":  {
+                                   "value":  "0x38",
+                                   "note":  ""
+                               },
+                    "pc_empty":  {
+                                     "value":  "0x40",
+                                     "note":  ""
+                                 },
+                    "pci_inv":  {
+                                    "value":  "0x18",
+                                    "note":  ""
+                                },
+                    "sh_desc":  {
+                                    "value":  "0x18",
+                                    "note":  ""
+                                },
+                    "sh_cargo":  {
+                                     "value":  "0x20",
+                                     "note":  ""
+                                 },
+                    "lshd_pos":  {
+                                     "value":  "0x20",
+                                     "note":  ""
+                                 },
+                    "lshd_desc":  {
+                                      "value":  "0x18",
+                                      "note":  ""
+                                  },
+                    "cim_slots":  {
+                                      "value":  "0x10",
+                                      "note":  ""
+                                  },
+                    "cis_cargo":  {
+                                      "value":  "0x10",
+                                      "note":  ""
+                                  },
+                    "cd_desc":  {
+                                    "value":  "0x20",
+                                    "note":  ""
+                                },
+                    "cdsc_rare":  {
+                                      "value":  "0x20",
+                                      "note":  ""
+                                  },
+                    "fl_pos":  {
+                                   "value":  "0x18",
+                                   "note":  ""
+                               },
+                    "fl_fid":  {
+                                   "value":  "0x50",
+                                   "note":  ""
+                               },
+                    "sp_x":  {
+                                 "value":  "0x10",
+                                 "note":  ""
+                             },
+                    "sp_y":  {
+                                 "value":  "0x18",
+                                 "note":  ""
+                             },
+                    "sp_z":  {
+                                 "value":  "0x20",
+                                 "note":  ""
+                             },
+                    "fli_name":  {
+                                     "value":  "0x18",
+                                     "note":  ""
+                                 },
+                    "fli_pages":  {
+                                      "value":  "0x28",
+                                      "note":  ""
+                                  },
+                    "ipm_inv":  {
+                                    "value":  "0x20",
+                                    "note":  ""
+                                },
+                    "bl_desc":  {
+                                    "value":  "0x10",
+                                    "note":  ""
+                                },
+                    "blod_ids":  {
+                                     "value":  "0x10",
+                                     "note":  ""
+                                 },
+                    "blod_pos":  {
+                                     "value":  "0x18",
+                                     "note":  ""
+                                 },
+                    "blei_inv":  {
+                                     "value":  "0x14",
+                                     "note":  ""
+                                 },
+                    "bli_pages":  {
+                                      "value":  "0x20",
+                                      "note":  ""
+                                  },
+                    "bli_nick":  {
+                                     "value":  "0x38",
+                                     "note":  ""
+                                 },
+                    "bli_desc":  {
+                                     "value":  "0x18",
+                                     "note":  ""
+                                 }
+                }
+}
