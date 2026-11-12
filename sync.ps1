@@ -1,6 +1,8 @@
 $ErrorActionPreference = "Stop"
 $root = Split-Path -Parent $MyInvocation.MyCommand.Path
-$src = Join-Path (Split-Path -Parent $root) "cheat\offsets\offsets.h"
+$srcDump = Join-Path (Split-Path -Parent $root) "offset-dumper\dump\offsets.h"
+if (-not (Test-Path $srcDump)) { throw "dump offsets.h missing" }
+$src = $srcDump
 $ga = "C:\Program Files (x86)\Steam\steamapps\common\Rob Run\GameAssembly.dll"
 $text = [IO.File]::ReadAllText($src)
 $when = if (Test-Path $ga) { (Get-Item $ga).LastWriteTime.ToString("yyyy-MM-dd HH:mm") } else { (Get-Date).ToString("yyyy-MM-dd HH:mm") }

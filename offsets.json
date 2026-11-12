@@ -3,7 +3,7 @@
     "Dumped At":  "2026-11-11 23:50",
     "Dumped With":  "Il2CppDumper",
     "Dumper Version":  "3.2.1",
-    "Total Offsets":  253,
+    "Total Offsets":  264,
     "Offsets":  {
                     "battle_model_ti":  {
                                             "value":  "136138568",
@@ -657,6 +657,50 @@
                                     "value":  "0x10",
                                     "note":  ""
                                 },
+                    "cr_end":  {
+                                   "value":  "0x18",
+                                   "note":  ""
+                               },
+                    "cr_time":  {
+                                    "value":  "0x20",
+                                    "note":  ""
+                                },
+                    "priv_inertia":  {
+                                         "value":  "0x248",
+                                         "note":  ""
+                                     },
+                    "priv_speed":  {
+                                       "value":  "0x2C8",
+                                       "note":  ""
+                                   },
+                    "priv_ctrl":  {
+                                      "value":  "0x2D8",
+                                      "note":  ""
+                                  },
+                    "ms_cfg":  {
+                                   "value":  "0x38",
+                                   "note":  ""
+                               },
+                    "cfg_dot":  {
+                                    "value":  "0x78",
+                                    "note":  ""
+                                },
+                    "ctrl_cfg":  {
+                                     "value":  "0x50",
+                                     "note":  ""
+                                 },
+                    "phys_vx":  {
+                                    "value":  "0x84",
+                                    "note":  ""
+                                },
+                    "phys_vz":  {
+                                    "value":  "0x88",
+                                    "note":  ""
+                                },
+                    "sprint_is":  {
+                                      "value":  "0xA860C0",
+                                      "note":  ""
+                                  },
                     "wr_state":  {
                                      "value":  "0x10",
                                      "note":  ""

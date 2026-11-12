@@ -180,6 +180,17 @@ namespace off {
     constexpr std::uintptr_t ko_phase = 0x18;
     constexpr std::uintptr_t ko_surrender = 0x70;
     constexpr std::uintptr_t cr_down = 0x10;
+    constexpr std::uintptr_t cr_end = 0x18;
+    constexpr std::uintptr_t cr_time = 0x20;
+    constexpr std::uintptr_t priv_inertia = 0x248;
+    constexpr std::uintptr_t priv_speed = 0x2C8;
+    constexpr std::uintptr_t priv_ctrl = 0x2D8;
+    constexpr std::uintptr_t ms_cfg = 0x38;
+    constexpr std::uintptr_t cfg_dot = 0x78;
+    constexpr std::uintptr_t ctrl_cfg = 0x50;
+    constexpr std::uintptr_t phys_vx = 0x84;
+    constexpr std::uintptr_t phys_vz = 0x88;
+    constexpr std::uintptr_t sprint_is = 0xA860C0;
     constexpr std::uintptr_t wr_state = 0x10;
     constexpr std::uintptr_t mel_hit = 0x10;
     constexpr std::uintptr_t inv_ent = 0x10;
