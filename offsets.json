@@ -3,7 +3,7 @@
     "Dumped At":  "2026-11-12 16:25",
     "Dumped With":  "Il2CppDumper",
     "Dumper Version":  "3.2.1",
-    "Total Offsets":  256,
+    "Total Offsets":  262,
     "Offsets":  {
                     "battle_model_ti":  {
                                             "value":  "136151056",
@@ -25,6 +25,18 @@
                                          "value":  "0x448",
                                          "note":  ""
                                      },
+                    "battle_loc":  {
+                                       "value":  "0x508",
+                                       "note":  ""
+                                   },
+                    "loc_desc":  {
+                                     "value":  "0x10",
+                                     "note":  ""
+                                 },
+                    "loc_sector":  {
+                                       "value":  "0x18",
+                                       "note":  ""
+                                   },
                     "party_list":  {
                                        "value":  "0x18",
                                        "note":  ""
@@ -33,6 +45,18 @@
                                          "value":  "0x18",
                                          "note":  ""
                                      },
+                    "party_members":  {
+                                          "value":  "0x18",
+                                          "note":  ""
+                                      },
+                    "battle_slots":  {
+                                         "value":  "0x248",
+                                         "note":  ""
+                                     },
+                    "slot_by_ent":  {
+                                        "value":  "0x18",
+                                        "note":  ""
+                                    },
                     "char_private":  {
                                          "value":  "0x10",
                                          "note":  "BattleCharacterModel.PrivateModel"

@@ -12,8 +12,14 @@ namespace off {
     constexpr std::uintptr_t battle_camera = 0x358;
     constexpr std::uintptr_t battle_input = 0x50;
     constexpr std::uintptr_t battle_party = 0x448;
+    constexpr std::uintptr_t battle_loc = 0x508;
+    constexpr std::uintptr_t loc_desc = 0x10;
+    constexpr std::uintptr_t loc_sector = 0x18;
     constexpr std::uintptr_t party_list = 0x18;
     constexpr std::uintptr_t party_by_ent = 0x18;
+    constexpr std::uintptr_t party_members = 0x18;
+    constexpr std::uintptr_t battle_slots = 0x248;
+    constexpr std::uintptr_t slot_by_ent = 0x18;
     constexpr std::uintptr_t char_private = 0x10; // BattleCharacterModel.PrivateModel
     constexpr std::uintptr_t private_random = 0x218; // BattleCharacterPrivateModel.Random
     constexpr std::uintptr_t private_spread = 0x220; // BattleCharacterPrivateModel.WeaponSpreadArgsModel
