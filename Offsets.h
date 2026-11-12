@@ -18,6 +18,8 @@ namespace off {
     constexpr std::uintptr_t party_list = 0x18;
     constexpr std::uintptr_t party_by_ent = 0x18;
     constexpr std::uintptr_t party_members = 0x18;
+    constexpr std::uintptr_t global_party = 0xC8;
+    constexpr std::uintptr_t ui_party_members = 0x38;
     constexpr std::uintptr_t battle_slots = 0x248;
     constexpr std::uintptr_t slot_by_ent = 0x18;
     constexpr std::uintptr_t char_private = 0x10; // BattleCharacterModel.PrivateModel
@@ -95,6 +97,7 @@ namespace off {
 
     constexpr std::uintptr_t updater_ti = 136137592;
     constexpr std::uintptr_t updater_battle = 0x70;
+    constexpr std::uintptr_t updater_global = 0x78;
     constexpr std::uintptr_t view_updaters = 0x38;
     constexpr std::uintptr_t view_content = 0xA8;
     constexpr std::uintptr_t content_value = 0x18;

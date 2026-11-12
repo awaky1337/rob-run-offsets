@@ -3,7 +3,7 @@
     "Dumped At":  "2026-11-12 16:25",
     "Dumped With":  "Il2CppDumper",
     "Dumper Version":  "3.2.1",
-    "Total Offsets":  262,
+    "Total Offsets":  265,
     "Offsets":  {
                     "battle_model_ti":  {
                                             "value":  "136151056",
@@ -49,6 +49,14 @@
                                           "value":  "0x18",
                                           "note":  ""
                                       },
+                    "global_party":  {
+                                         "value":  "0xC8",
+                                         "note":  ""
+                                     },
+                    "ui_party_members":  {
+                                             "value":  "0x38",
+                                             "note":  ""
+                                         },
                     "battle_slots":  {
                                          "value":  "0x248",
                                          "note":  ""
@@ -331,6 +339,10 @@
                                    },
                     "updater_battle":  {
                                            "value":  "0x70",
+                                           "note":  ""
+                                       },
+                    "updater_global":  {
+                                           "value":  "0x78",
                                            "note":  ""
                                        },
                     "view_updaters":  {
