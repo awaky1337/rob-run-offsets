@@ -1,12 +1,12 @@
 #pragma once
 /* rob run offsets
-   dumped: 2026-11-11 23:50
+   dumped: 2026-11-12 16:25
    dumper: Il2CppDumper 3.2.1
 */
 #include <cstdint>
 
 namespace off {
-    constexpr std::uintptr_t battle_model_ti = 136138568;
+    constexpr std::uintptr_t battle_model_ti = 136151056;
 
     constexpr std::uintptr_t battle_entities = 0x90;
     constexpr std::uintptr_t battle_camera = 0x358;
@@ -32,7 +32,7 @@ namespace off {
     constexpr std::uintptr_t char_shot_interp = 0x108; // BattleCharacterModel.ShotInterpolationModel
     constexpr std::uintptr_t interp_pos = 0x10; // ShotInterpolationModel._transform
     constexpr std::uintptr_t interp_look = 0x1C; // ShotInterpolationModel._lookDirection
-    constexpr std::uintptr_t weapon_descs_ti = 135947528; // WeaponDescriptions TypeInfo
+    constexpr std::uintptr_t weapon_descs_ti = 135961240; // WeaponDescriptions TypeInfo
     constexpr std::uintptr_t weapon_shot_cd = 0x20; // WeaponDescription.ShotCooldown
     constexpr std::uintptr_t battle_shot_auto = 0x1F8;
     constexpr std::uintptr_t battle_shot_single = 0x200;
@@ -40,21 +40,21 @@ namespace off {
     constexpr std::uintptr_t input_look = 0x18; // BattleInputModel._lookDirection, yaw and pitch in radians
     constexpr std::uintptr_t input_look_changed = 0x32;
     constexpr std::uintptr_t input_shot_look = 0x38;
-    constexpr std::uintptr_t look_skip = 0xA81E76;
-    constexpr std::uintptr_t shot_store_manual = 0xA81FDD;
-    constexpr std::uintptr_t shot_store_auto = 0xA732F7;
-    constexpr std::uintptr_t shot_cur_xy_manual = 0xA81FA0;
-    constexpr std::uintptr_t shot_cur_z_manual = 0xA81FA9;
-    constexpr std::uintptr_t shot_prev_xy_manual = 0xA81FB2;
-    constexpr std::uintptr_t shot_prev_z_manual = 0xA81FBB;
-    constexpr std::uintptr_t shot_cur_xy_auto = 0xA732B1;
-    constexpr std::uintptr_t shot_cur_z_auto = 0xA732BA;
-    constexpr std::uintptr_t shot_prev_xy_auto = 0xA732C3;
-    constexpr std::uintptr_t shot_prev_z_auto = 0xA732CC;
-    constexpr std::uintptr_t spread_fn = 0x431C410; // ApplySpreadToShotDirection
-    constexpr std::uintptr_t spread_mul_x = 0x431C5A4; // ApplySpreadToShotDirection, sx *= spread
-    constexpr std::uintptr_t spread_mul_y = 0x431C5D2; // sy *= spread
-    constexpr std::uintptr_t recoil_upd = 0xB10BE0; // SpriteRecoilModelUpdater.Update
+    constexpr std::uintptr_t look_skip = 0xA81E46;
+    constexpr std::uintptr_t shot_store_manual = 0xA81FAD;
+    constexpr std::uintptr_t shot_store_auto = 0xA732C7;
+    constexpr std::uintptr_t shot_cur_xy_manual = 0xA81F70;
+    constexpr std::uintptr_t shot_cur_z_manual = 0xA81F79;
+    constexpr std::uintptr_t shot_prev_xy_manual = 0xA81F82;
+    constexpr std::uintptr_t shot_prev_z_manual = 0xA81F8B;
+    constexpr std::uintptr_t shot_cur_xy_auto = 0xA73281;
+    constexpr std::uintptr_t shot_cur_z_auto = 0xA7328A;
+    constexpr std::uintptr_t shot_prev_xy_auto = 0xA73293;
+    constexpr std::uintptr_t shot_prev_z_auto = 0xA7329C;
+    constexpr std::uintptr_t spread_fn = 0x431D280; // ApplySpreadToShotDirection
+    constexpr std::uintptr_t spread_mul_x = 0x431D414; // ApplySpreadToShotDirection, sx *= spread
+    constexpr std::uintptr_t spread_mul_y = 0x431D442; // sy *= spread
+    constexpr std::uintptr_t recoil_upd = 0xB10BB0; // SpriteRecoilModelUpdater.Update
 
     constexpr std::uintptr_t cam_pos = 0x10;
     constexpr std::uintptr_t cam_fwd = 0x3C;
@@ -84,7 +84,7 @@ namespace off {
     constexpr std::uintptr_t repl_pos = 0x10;
     constexpr std::uintptr_t prim_value = 0x18;
 
-    constexpr std::uintptr_t updater_ti = 136125104;
+    constexpr std::uintptr_t updater_ti = 136137592;
     constexpr std::uintptr_t updater_battle = 0x70;
     constexpr std::uintptr_t view_updaters = 0x38;
     constexpr std::uintptr_t view_content = 0xA8;
@@ -106,8 +106,8 @@ namespace off {
     constexpr std::uintptr_t str_len = 0x10;
     constexpr std::uintptr_t str_chars = 0x14;
 
-    constexpr std::uintptr_t gc_nsects = 0x8635DA8; // Boehm GC_n_heap_sects
-    constexpr std::uintptr_t gc_sects = 0x86BE960; // GC_heap_sects {start, bytes}
+    constexpr std::uintptr_t gc_nsects = 0x8638F78; // Boehm GC_n_heap_sects
+    constexpr std::uintptr_t gc_sects = 0x86C1B40; // GC_heap_sects {start, bytes}
     constexpr std::uintptr_t gc_max_sects = 0x14000;
 
     constexpr std::uintptr_t peb_ldr = 0x18;
@@ -121,7 +121,7 @@ namespace off {
     constexpr std::uintptr_t entity_client = 0x20; // BattleCharacterEntityModel.ClientModel
     constexpr std::uintptr_t client_set_move = 0x30; // CharacterClientModel.SetMovement
     constexpr std::uintptr_t set_move_x = 0x10; // y +0x14, z +0x18, vx +0x1C, vz +0x20, ts +0x28
-    constexpr std::uintptr_t cmcore_ti = 135657128; // CinemachineCore TypeInfo
+    constexpr std::uintptr_t cmcore_ti = 135669576; // CinemachineCore TypeInfo
     constexpr std::uintptr_t il2_statics = 0xB8; // Il2CppClass.static_fields
     constexpr std::uintptr_t cmcore_inst = 0x8; // CinemachineCore.sInstance
     constexpr std::uintptr_t cmcore_brains = 0x10; // CinemachineCore.mActiveBrains
@@ -129,8 +129,8 @@ namespace off {
     constexpr std::uintptr_t list_size = 0x18; // List<T>._size
     constexpr std::uintptr_t brain_cam = 0x50; // CinemachineBrain.m_OutputCamera
     constexpr std::uintptr_t cam_fov = 0x170; // native Camera m_VerticalFOV
-    constexpr std::uintptr_t item_desc_ti = 136298336; // InventoryItemDescriptions TypeInfo
-    constexpr std::uintptr_t slot_ti = 136314248; // InventorySlot TypeInfo
+    constexpr std::uintptr_t item_desc_ti = 136310824; // InventoryItemDescriptions TypeInfo
+    constexpr std::uintptr_t slot_ti = 136326736; // InventorySlot TypeInfo
     constexpr std::uintptr_t desc_type = 0x20;
     constexpr std::uintptr_t desc_rarity = 0x30;
     constexpr std::uintptr_t desc_ammo_fn = 0x68;
@@ -180,17 +180,6 @@ namespace off {
     constexpr std::uintptr_t ko_phase = 0x18;
     constexpr std::uintptr_t ko_surrender = 0x70;
     constexpr std::uintptr_t cr_down = 0x10;
-    constexpr std::uintptr_t cr_end = 0x18;
-    constexpr std::uintptr_t cr_time = 0x20;
-    constexpr std::uintptr_t priv_inertia = 0x248;
-    constexpr std::uintptr_t priv_speed = 0x2C8;
-    constexpr std::uintptr_t priv_ctrl = 0x2D8;
-    constexpr std::uintptr_t ms_cfg = 0x38;
-    constexpr std::uintptr_t cfg_dot = 0x78;
-    constexpr std::uintptr_t ctrl_cfg = 0x50;
-    constexpr std::uintptr_t phys_vx = 0x84;
-    constexpr std::uintptr_t phys_vz = 0x88;
-    constexpr std::uintptr_t sprint_is = 0xA860C0;
     constexpr std::uintptr_t wr_state = 0x10;
     constexpr std::uintptr_t mel_hit = 0x10;
     constexpr std::uintptr_t inv_ent = 0x10;

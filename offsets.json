@@ -1,12 +1,12 @@
 {
     "Game":  "Rob Run",
-    "Dumped At":  "2026-11-11 23:50",
+    "Dumped At":  "2026-11-12 16:25",
     "Dumped With":  "Il2CppDumper",
     "Dumper Version":  "3.2.1",
-    "Total Offsets":  264,
+    "Total Offsets":  253,
     "Offsets":  {
                     "battle_model_ti":  {
-                                            "value":  "136138568",
+                                            "value":  "136151056",
                                             "note":  ""
                                         },
                     "battle_entities":  {
@@ -106,7 +106,7 @@
                                         "note":  "ShotInterpolationModel._lookDirection"
                                     },
                     "weapon_descs_ti":  {
-                                            "value":  "135947528",
+                                            "value":  "135961240",
                                             "note":  "WeaponDescriptions TypeInfo"
                                         },
                     "weapon_shot_cd":  {
@@ -138,63 +138,63 @@
                                             "note":  ""
                                         },
                     "look_skip":  {
-                                      "value":  "0xA81E76",
+                                      "value":  "0xA81E46",
                                       "note":  ""
                                   },
                     "shot_store_manual":  {
-                                              "value":  "0xA81FDD",
+                                              "value":  "0xA81FAD",
                                               "note":  ""
                                           },
                     "shot_store_auto":  {
-                                            "value":  "0xA732F7",
+                                            "value":  "0xA732C7",
                                             "note":  ""
                                         },
                     "shot_cur_xy_manual":  {
-                                               "value":  "0xA81FA0",
+                                               "value":  "0xA81F70",
                                                "note":  ""
                                            },
                     "shot_cur_z_manual":  {
-                                              "value":  "0xA81FA9",
+                                              "value":  "0xA81F79",
                                               "note":  ""
                                           },
                     "shot_prev_xy_manual":  {
-                                                "value":  "0xA81FB2",
+                                                "value":  "0xA81F82",
                                                 "note":  ""
                                             },
                     "shot_prev_z_manual":  {
-                                               "value":  "0xA81FBB",
+                                               "value":  "0xA81F8B",
                                                "note":  ""
                                            },
                     "shot_cur_xy_auto":  {
-                                             "value":  "0xA732B1",
+                                             "value":  "0xA73281",
                                              "note":  ""
                                          },
                     "shot_cur_z_auto":  {
-                                            "value":  "0xA732BA",
+                                            "value":  "0xA7328A",
                                             "note":  ""
                                         },
                     "shot_prev_xy_auto":  {
-                                              "value":  "0xA732C3",
+                                              "value":  "0xA73293",
                                               "note":  ""
                                           },
                     "shot_prev_z_auto":  {
-                                             "value":  "0xA732CC",
+                                             "value":  "0xA7329C",
                                              "note":  ""
                                          },
                     "spread_fn":  {
-                                      "value":  "0x431C410",
+                                      "value":  "0x431D280",
                                       "note":  "ApplySpreadToShotDirection"
                                   },
                     "spread_mul_x":  {
-                                         "value":  "0x431C5A4",
+                                         "value":  "0x431D414",
                                          "note":  "ApplySpreadToShotDirection, sx *= spread"
                                      },
                     "spread_mul_y":  {
-                                         "value":  "0x431C5D2",
+                                         "value":  "0x431D442",
                                          "note":  "sy *= spread"
                                      },
                     "recoil_upd":  {
-                                       "value":  "0xB10BE0",
+                                       "value":  "0xB10BB0",
                                        "note":  "SpriteRecoilModelUpdater.Update"
                                    },
                     "cam_pos":  {
@@ -290,7 +290,7 @@
                                        "note":  ""
                                    },
                     "updater_ti":  {
-                                       "value":  "136125104",
+                                       "value":  "136137592",
                                        "note":  ""
                                    },
                     "updater_battle":  {
@@ -370,11 +370,11 @@
                                       "note":  ""
                                   },
                     "gc_nsects":  {
-                                      "value":  "0x8635DA8",
+                                      "value":  "0x8638F78",
                                       "note":  "Boehm GC_n_heap_sects"
                                   },
                     "gc_sects":  {
-                                     "value":  "0x86BE960",
+                                     "value":  "0x86C1B40",
                                      "note":  "GC_heap_sects {start, bytes}"
                                  },
                     "gc_max_sects":  {
@@ -422,7 +422,7 @@
                                        "note":  "y +0x14, z +0x18, vx +0x1C, vz +0x20, ts +0x28"
                                    },
                     "cmcore_ti":  {
-                                      "value":  "135657128",
+                                      "value":  "135669576",
                                       "note":  "CinemachineCore TypeInfo"
                                   },
                     "il2_statics":  {
@@ -454,11 +454,11 @@
                                     "note":  "native Camera m_VerticalFOV"
                                 },
                     "item_desc_ti":  {
-                                         "value":  "136298336",
+                                         "value":  "136310824",
                                          "note":  "InventoryItemDescriptions TypeInfo"
                                      },
                     "slot_ti":  {
-                                    "value":  "136314248",
+                                    "value":  "136326736",
                                     "note":  "InventorySlot TypeInfo"
                                 },
                     "desc_type":  {
@@ -657,50 +657,6 @@
                                     "value":  "0x10",
                                     "note":  ""
                                 },
-                    "cr_end":  {
-                                   "value":  "0x18",
-                                   "note":  ""
-                               },
-                    "cr_time":  {
-                                    "value":  "0x20",
-                                    "note":  ""
-                                },
-                    "priv_inertia":  {
-                                         "value":  "0x248",
-                                         "note":  ""
-                                     },
-                    "priv_speed":  {
-                                       "value":  "0x2C8",
-                                       "note":  ""
-                                   },
-                    "priv_ctrl":  {
-                                      "value":  "0x2D8",
-                                      "note":  ""
-                                  },
-                    "ms_cfg":  {
-                                   "value":  "0x38",
-                                   "note":  ""
-                               },
-                    "cfg_dot":  {
-                                    "value":  "0x78",
-                                    "note":  ""
-                                },
-                    "ctrl_cfg":  {
-                                     "value":  "0x50",
-                                     "note":  ""
-                                 },
-                    "phys_vx":  {
-                                    "value":  "0x84",
-                                    "note":  ""
-                                },
-                    "phys_vz":  {
-                                    "value":  "0x88",
-                                    "note":  ""
-                                },
-                    "sprint_is":  {
-                                      "value":  "0xA860C0",
-                                      "note":  ""
-                                  },
                     "wr_state":  {
                                      "value":  "0x10",
                                      "note":  ""
