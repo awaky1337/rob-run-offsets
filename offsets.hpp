@@ -1,6 +1,6 @@
 #pragma once
 /* rob run offsets
-   dumped: 2026-11-12 16:25
+   dumped: 2026-11-13 07:52
    dumper: Il2CppDumper 3.2.1
 */
 #include <cstdint>
@@ -23,6 +23,7 @@ namespace off {
     constexpr std::uintptr_t battle_slots = 0x248;
     constexpr std::uintptr_t slot_by_ent = 0x18;
     constexpr std::uintptr_t char_private = 0x10; // BattleCharacterModel.PrivateModel
+    constexpr std::uintptr_t priv_ctrl = 0x2D8;
     constexpr std::uintptr_t private_random = 0x218; // BattleCharacterPrivateModel.Random
     constexpr std::uintptr_t private_spread = 0x220; // BattleCharacterPrivateModel.WeaponSpreadArgsModel
     constexpr std::uintptr_t random_seed = 0x10; // RandomModel._seed
@@ -190,6 +191,7 @@ namespace off {
     constexpr std::uintptr_t bc_melee = 0x288;
     constexpr std::uintptr_t bc_knock = 0x298;
     constexpr std::uintptr_t ko_phase = 0x18;
+    constexpr std::uintptr_t ko_end = 0x10;
     constexpr std::uintptr_t ko_surrender = 0x70;
     constexpr std::uintptr_t cr_down = 0x10;
     constexpr std::uintptr_t wr_state = 0x10;

@@ -1,9 +1,9 @@
 {
     "Game":  "Rob Run",
-    "Dumped At":  "2026-11-12 16:25",
+    "Dumped At":  "2026-11-13 07:52",
     "Dumped With":  "Il2CppDumper",
     "Dumper Version":  "3.2.1",
-    "Total Offsets":  265,
+    "Total Offsets":  267,
     "Offsets":  {
                     "battle_model_ti":  {
                                             "value":  "136151056",
@@ -69,6 +69,10 @@
                                          "value":  "0x10",
                                          "note":  "BattleCharacterModel.PrivateModel"
                                      },
+                    "priv_ctrl":  {
+                                      "value":  "0x2D8",
+                                      "note":  ""
+                                  },
                     "private_random":  {
                                            "value":  "0x218",
                                            "note":  "BattleCharacterPrivateModel.Random"
@@ -697,6 +701,10 @@
                                      "value":  "0x18",
                                      "note":  ""
                                  },
+                    "ko_end":  {
+                                   "value":  "0x10",
+                                   "note":  ""
+                               },
                     "ko_surrender":  {
                                          "value":  "0x70",
                                          "note":  ""
