@@ -2,7 +2,7 @@
     "game":  "Rob Run",
     "active":  true,
     "dumped_at":  "2026-11-13 07:52",
-    "count":  267,
+    "count":  270,
     "offsets":  {
                     "battle_model_ti":  136151056,
                     "battle_entities":  144,
@@ -21,6 +21,9 @@
                     "slot_by_ent":  24,
                     "char_private":  16,
                     "priv_ctrl":  728,
+                    "priv_health":  432,
+                    "health_amt":  16,
+                    "health_max":  32,
                     "private_random":  536,
                     "private_spread":  544,
                     "random_seed":  16,
