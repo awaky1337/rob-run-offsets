@@ -3,7 +3,7 @@
     "Dumped At":  "2026-11-13 07:52",
     "Dumped With":  "Il2CppDumper",
     "Dumper Version":  "3.2.1",
-    "Total Offsets":  270,
+    "Total Offsets":  267,
     "Offsets":  {
                     "battle_model_ti":  {
                                             "value":  "136151056",
@@ -73,18 +73,6 @@
                                       "value":  "0x2D8",
                                       "note":  ""
                                   },
-                    "priv_health":  {
-                                        "value":  "0x1B0",
-                                        "note":  ""
-                                    },
-                    "health_amt":  {
-                                       "value":  "0x10",
-                                       "note":  ""
-                                   },
-                    "health_max":  {
-                                       "value":  "0x20",
-                                       "note":  ""
-                                   },
                     "private_random":  {
                                            "value":  "0x218",
                                            "note":  "BattleCharacterPrivateModel.Random"

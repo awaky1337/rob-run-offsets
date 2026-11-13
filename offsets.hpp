@@ -24,9 +24,6 @@ namespace off {
     constexpr std::uintptr_t slot_by_ent = 0x18;
     constexpr std::uintptr_t char_private = 0x10; // BattleCharacterModel.PrivateModel
     constexpr std::uintptr_t priv_ctrl = 0x2D8;
-    constexpr std::uintptr_t priv_health = 0x1B0;
-    constexpr std::uintptr_t health_amt = 0x10;
-    constexpr std::uintptr_t health_max = 0x20;
     constexpr std::uintptr_t private_random = 0x218; // BattleCharacterPrivateModel.Random
     constexpr std::uintptr_t private_spread = 0x220; // BattleCharacterPrivateModel.WeaponSpreadArgsModel
     constexpr std::uintptr_t random_seed = 0x10; // RandomModel._seed
