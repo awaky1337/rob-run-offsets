@@ -317,4 +317,21 @@ namespace off {
     constexpr std::uintptr_t mat_set_color = 0x6233BD0; // Material.set_color
     constexpr std::uintptr_t mat_set_shader = 0x6234510; // Material.set_shader
     constexpr std::uintptr_t shader_find = 0x62171E0; // Shader.Find
+    constexpr std::uintptr_t mat_get_shader = 0x6233B10; // Material.get_shader
+    constexpr std::uintptr_t mat_set_int = 0x6230AD0; // Material.SetInt
+    constexpr std::uintptr_t mat_set_color_name = 0x622FC00; // Material.SetColor
+    constexpr std::uintptr_t rend_bounds = 0x6213300; // Renderer.get_bounds
+    constexpr std::uintptr_t rend_enabled = 0x62133E0; // Renderer.get_enabled
+    constexpr std::uintptr_t skin_bake = 0x624A220; // SkinnedMeshRenderer.BakeMesh
+    constexpr std::uintptr_t skin_root = 0x624AE80; // SkinnedMeshRenderer.get_rootBone
+    constexpr std::uintptr_t mesh_ctor = 0x6248080; // Mesh.ctor
+    constexpr std::uintptr_t mesh_readable = 0x6248880; // Mesh.get_isReadable
+    constexpr std::uintptr_t mesh_vcount = 0x6248EE0; // Mesh.get_vertexCount
+    constexpr std::uintptr_t mesh_vstride = 0x623EE10; // Mesh.GetVertexBufferStride
+    constexpr std::uintptr_t mesh_vptr = 0x623C730; // Mesh.GetNativeVertexBufferPtr
+    constexpr std::uintptr_t mesh_iptr = 0x623C670; // Mesh.GetNativeIndexBufferPtr
+    constexpr std::uintptr_t mesh_iformat = 0x6248740; // Mesh.get_indexFormat
+    constexpr std::uintptr_t mesh_icount = 0x623A9F0; // Mesh.GetIndexCount
+    constexpr std::uintptr_t comp_transform = 0x627E130; // Component.get_transform
+    constexpr std::uintptr_t trs_matrix = 0x62D09A0; // Transform.get_localToWorldMatrix
 }
