@@ -3,7 +3,7 @@
     "Dumped At":  "2026-11-13 07:52",
     "Dumped With":  "Il2CppDumper",
     "Dumper Version":  "3.2.1",
-    "Total Offsets":  267,
+    "Total Offsets":  292,
     "Offsets":  {
                     "battle_model_ti":  {
                                             "value":  "136151056",
@@ -1072,6 +1072,106 @@
                     "bli_desc":  {
                                      "value":  "0x18",
                                      "note":  ""
-                                 }
+                                 },
+                    "view_custom":  {
+                                        "value":  "0xB8",
+                                        "note":  "BattleCharacterEntityView.CustomizationView"
+                                    },
+                    "cust_lods":  {
+                                      "value":  "0x20",
+                                      "note":  "CharacterCustomizationView._lods"
+                                  },
+                    "lod_beard":  {
+                                      "value":  "0x20",
+                                      "note":  "LodCharacterView._beardSkinned"
+                                  },
+                    "lod_brows":  {
+                                      "value":  "0x28",
+                                      "note":  ""
+                                  },
+                    "lod_lashes":  {
+                                       "value":  "0x30",
+                                       "note":  ""
+                                   },
+                    "lod_body":  {
+                                     "value":  "0x38",
+                                     "note":  ""
+                                 },
+                    "lod_hair":  {
+                                     "value":  "0x40",
+                                     "note":  ""
+                                 },
+                    "lod_bald":  {
+                                     "value":  "0x50",
+                                     "note":  ""
+                                 },
+                    "lod_bristle":  {
+                                        "value":  "0x68",
+                                        "note":  ""
+                                    },
+                    "lod_head":  {
+                                     "value":  "0x80",
+                                     "note":  ""
+                                 },
+                    "lod_strap":  {
+                                      "value":  "0x88",
+                                      "note":  ""
+                                  },
+                    "lod_bag":  {
+                                    "value":  "0x90",
+                                    "note":  ""
+                                },
+                    "lod_mask":  {
+                                     "value":  "0xA0",
+                                     "note":  ""
+                                 },
+                    "cust_body_mats":  {
+                                           "value":  "0x88",
+                                           "note":  ""
+                                       },
+                    "cust_head_mat":  {
+                                          "value":  "0xA8",
+                                          "note":  ""
+                                      },
+                    "cust_hair_mats":  {
+                                           "value":  "0x90",
+                                           "note":  ""
+                                       },
+                    "cust_bald_mat":  {
+                                          "value":  "0x98",
+                                          "note":  ""
+                                      },
+                    "cust_bristle_mat":  {
+                                             "value":  "0xA0",
+                                             "note":  ""
+                                         },
+                    "cust_brows_mat":  {
+                                           "value":  "0x78",
+                                           "note":  ""
+                                       },
+                    "rend_get_mats":  {
+                                          "value":  "0x6211F50",
+                                          "note":  "Renderer.get_materials"
+                                      },
+                    "rend_set_mats":  {
+                                          "value":  "0x6214580",
+                                          "note":  "Renderer.set_materials"
+                                      },
+                    "rend_set_shared":  {
+                                            "value":  "0x6212D50",
+                                            "note":  "Renderer.set_sharedMaterial"
+                                        },
+                    "mat_set_color":  {
+                                          "value":  "0x6233BD0",
+                                          "note":  "Material.set_color"
+                                      },
+                    "mat_set_shader":  {
+                                           "value":  "0x6234510",
+                                           "note":  "Material.set_shader"
+                                       },
+                    "shader_find":  {
+                                        "value":  "0x62171E0",
+                                        "note":  "Shader.Find"
+                                    }
                 }
 }

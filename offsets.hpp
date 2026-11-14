@@ -291,4 +291,30 @@ namespace off {
     constexpr std::uintptr_t bli_pages = 0x20;
     constexpr std::uintptr_t bli_nick = 0x38;
     constexpr std::uintptr_t bli_desc = 0x18;
+
+    constexpr std::uintptr_t view_custom = 0xB8; // BattleCharacterEntityView.CustomizationView
+    constexpr std::uintptr_t cust_lods = 0x20; // CharacterCustomizationView._lods
+    constexpr std::uintptr_t lod_beard = 0x20; // LodCharacterView._beardSkinned
+    constexpr std::uintptr_t lod_brows = 0x28;
+    constexpr std::uintptr_t lod_lashes = 0x30;
+    constexpr std::uintptr_t lod_body = 0x38;
+    constexpr std::uintptr_t lod_hair = 0x40;
+    constexpr std::uintptr_t lod_bald = 0x50;
+    constexpr std::uintptr_t lod_bristle = 0x68;
+    constexpr std::uintptr_t lod_head = 0x80;
+    constexpr std::uintptr_t lod_strap = 0x88;
+    constexpr std::uintptr_t lod_bag = 0x90;
+    constexpr std::uintptr_t lod_mask = 0xA0;
+    constexpr std::uintptr_t cust_body_mats = 0x88;
+    constexpr std::uintptr_t cust_head_mat = 0xA8;
+    constexpr std::uintptr_t cust_hair_mats = 0x90;
+    constexpr std::uintptr_t cust_bald_mat = 0x98;
+    constexpr std::uintptr_t cust_bristle_mat = 0xA0;
+    constexpr std::uintptr_t cust_brows_mat = 0x78;
+    constexpr std::uintptr_t rend_get_mats = 0x6211F50; // Renderer.get_materials
+    constexpr std::uintptr_t rend_set_mats = 0x6214580; // Renderer.set_materials
+    constexpr std::uintptr_t rend_set_shared = 0x6212D50; // Renderer.set_sharedMaterial
+    constexpr std::uintptr_t mat_set_color = 0x6233BD0; // Material.set_color
+    constexpr std::uintptr_t mat_set_shader = 0x6234510; // Material.set_shader
+    constexpr std::uintptr_t shader_find = 0x62171E0; // Shader.Find
 }
