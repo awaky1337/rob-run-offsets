@@ -3,7 +3,7 @@
     "Dumped At":  "2026-11-13 07:52",
     "Dumped With":  "Il2CppDumper",
     "Dumper Version":  "3.2.1",
-    "Total Offsets":  309,
+    "Total Offsets":  316,
     "Offsets":  {
                     "battle_model_ti":  {
                                             "value":  "136151056",
@@ -1240,6 +1240,34 @@
                     "trs_matrix":  {
                                        "value":  "0x62D09A0",
                                        "note":  "Transform.get_localToWorldMatrix"
-                                   }
+                                   },
+                    "cham_ti":  {
+                                    "value":  "0x81718A8",
+                                    "note":  "RenderingUtils"
+                                },
+                    "cham_mat":  {
+                                     "value":  "0x88",
+                                     "note":  "RenderingUtils.s_ErrorMaterial"
+                                 },
+                    "cham_ctor":  {
+                                      "value":  "0x6232E40",
+                                      "note":  "Material.ctor(Shader)"
+                                  },
+                    "cham_shared":  {
+                                        "value":  "0x6212D50",
+                                        "note":  "Renderer.set_sharedMaterial"
+                                    },
+                    "cham_beard":  {
+                                       "value":  "0x10",
+                                       "note":  "LodCharacterView._beard"
+                                   },
+                    "cham_bald_r":  {
+                                        "value":  "0x58",
+                                        "note":  "LodCharacterView.BaldRenderer"
+                                    },
+                    "cham_bristle_r":  {
+                                           "value":  "0x70",
+                                           "note":  "LodCharacterView.BristleRenderer"
+                                       }
                 }
 }

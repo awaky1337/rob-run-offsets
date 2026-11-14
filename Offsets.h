@@ -335,3 +335,13 @@ namespace off {
     constexpr std::uintptr_t comp_transform = 0x627E130; // Component.get_transform
     constexpr std::uintptr_t trs_matrix = 0x62D09A0; // Transform.get_localToWorldMatrix
 }
+
+namespace cham {
+    constexpr std::uintptr_t cham_ti = 0x81718A8; // RenderingUtils
+    constexpr std::uintptr_t cham_mat = 0x88; // RenderingUtils.s_ErrorMaterial
+    constexpr std::uintptr_t cham_ctor = 0x6232E40; // Material.ctor(Shader)
+    constexpr std::uintptr_t cham_shared = 0x6212D50; // Renderer.set_sharedMaterial
+    constexpr std::uintptr_t cham_beard = 0x10; // LodCharacterView._beard
+    constexpr std::uintptr_t cham_bald_r = 0x58; // LodCharacterView.BaldRenderer
+    constexpr std::uintptr_t cham_bristle_r = 0x70; // LodCharacterView.BristleRenderer
+}

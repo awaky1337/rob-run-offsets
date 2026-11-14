@@ -2,7 +2,7 @@
     "game":  "Rob Run",
     "active":  true,
     "dumped_at":  "2026-11-13 07:52",
-    "count":  309,
+    "count":  316,
     "offsets":  {
                     "battle_model_ti":  136151056,
                     "battle_entities":  144,
@@ -312,6 +312,13 @@
                     "mesh_iformat":  103057216,
                     "mesh_icount":  103000560,
                     "comp_transform":  103276848,
-                    "trs_matrix":  103614880
+                    "trs_matrix":  103614880,
+                    "cham_ti":  135731368,
+                    "cham_mat":  136,
+                    "cham_ctor":  102968896,
+                    "cham_shared":  102837584,
+                    "cham_beard":  16,
+                    "cham_bald_r":  88,
+                    "cham_bristle_r":  112
                 }
 }
