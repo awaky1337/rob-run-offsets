@@ -102,15 +102,7 @@ namespace off {
     constexpr std::uintptr_t view_updaters = 0x38;
     constexpr std::uintptr_t view_content = 0xA8;
     constexpr std::uintptr_t content_value = 0x18;
-    constexpr std::uintptr_t head_pos = 0xE8;
     constexpr std::uintptr_t cached_ptr = 0x10;
-    constexpr std::uintptr_t movement_view = 0x20;
-    constexpr std::uintptr_t move_transform = 0x20;
-    constexpr std::uintptr_t tr_hier = 0x28; // index dword follows at +0x30
-    constexpr std::uintptr_t hier_list = 0x18; // parents ptr follows at +0x20
-    constexpr std::uintptr_t trs_size = 0x30;
-    constexpr std::uintptr_t hier_ptrs = 0x30; // transform pointer per index
-    constexpr std::uintptr_t hier_cnt = 0x28; // pointer to the uint32 node count
 
     constexpr std::uintptr_t slots = 0x248;
     constexpr std::uintptr_t slot_ents = 0x18;
@@ -336,6 +328,24 @@ namespace off {
     constexpr std::uintptr_t trs_matrix = 0x62D09A0; // Transform.get_localToWorldMatrix
 }
 
+namespace bone {
+    constexpr std::uintptr_t head_pos = 0xE8;
+    constexpr std::uintptr_t movement_view = 0x20;
+    constexpr std::uintptr_t move_transform = 0x20;
+    constexpr std::uintptr_t tr_hier = 0x28; // TransformAccess hierarchy
+    constexpr std::uintptr_t bone_idx = 0x30; // TransformAccess index
+    constexpr std::uintptr_t hier_list = 0x18; // transform pointer array
+    constexpr std::uintptr_t hier_par = 0x20; // parent index array
+    constexpr std::uintptr_t trs_size = 0x30;
+    constexpr std::uintptr_t hier_ptrs = 0x30; // transform pointer per index
+    constexpr std::uintptr_t hier_cnt = 0x28; // pointer to the uint32 node count
+}
+
+namespace il2 {
+    constexpr std::uintptr_t arr_len = 0x18; // Il2CppArray.length
+    constexpr std::uintptr_t dict_buckets = 0x10; // Dictionary.buckets
+}
+
 namespace cham {
     constexpr std::uintptr_t cham_ti = 0x81718A8; // RenderingUtils
     constexpr std::uintptr_t cham_mat = 0x88; // RenderingUtils.s_ErrorMaterial
@@ -344,4 +354,14 @@ namespace cham {
     constexpr std::uintptr_t cham_beard = 0x10; // LodCharacterView._beard
     constexpr std::uintptr_t cham_bald_r = 0x58; // LodCharacterView.BaldRenderer
     constexpr std::uintptr_t cham_bristle_r = 0x70; // LodCharacterView.BristleRenderer
+    constexpr std::uintptr_t cham_upd = 0x924F50; // BattleEntitiesUpdater.Update
+    constexpr std::uintptr_t cham_custom = 0x3600980; // CharacterCustomizationView.Customize
+    constexpr std::uintptr_t cham_model = 0xD8;
+    constexpr std::uintptr_t cham_color = 0xD0;
+    constexpr std::uintptr_t cham_queue = 0x6234410; // Material.set_renderQueue
+    constexpr std::uintptr_t cham_mat_ti = 0x81688E0;
+    constexpr std::uintptr_t cham_skin_ti = 0x81DDB70;
+    constexpr std::uintptr_t cham_mesh_ti = 0x8171010;
+    constexpr std::uintptr_t cham_sex_ti = 0x81CFD70;
+    constexpr std::uintptr_t cham_res_ti = 0x817F040;
 }

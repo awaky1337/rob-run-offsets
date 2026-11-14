@@ -3,7 +3,7 @@
     "Dumped At":  "2026-11-13 07:52",
     "Dumped With":  "Il2CppDumper",
     "Dumper Version":  "3.2.1",
-    "Total Offsets":  316,
+    "Total Offsets":  330,
     "Offsets":  {
                     "battle_model_ti":  {
                                             "value":  "136151056",
@@ -361,42 +361,10 @@
                                           "value":  "0x18",
                                           "note":  ""
                                       },
-                    "head_pos":  {
-                                     "value":  "0xE8",
-                                     "note":  ""
-                                 },
                     "cached_ptr":  {
                                        "value":  "0x10",
                                        "note":  ""
                                    },
-                    "movement_view":  {
-                                          "value":  "0x20",
-                                          "note":  ""
-                                      },
-                    "move_transform":  {
-                                           "value":  "0x20",
-                                           "note":  ""
-                                       },
-                    "tr_hier":  {
-                                    "value":  "0x28",
-                                    "note":  "index dword follows at +0x30"
-                                },
-                    "hier_list":  {
-                                      "value":  "0x18",
-                                      "note":  "parents ptr follows at +0x20"
-                                  },
-                    "trs_size":  {
-                                     "value":  "0x30",
-                                     "note":  ""
-                                 },
-                    "hier_ptrs":  {
-                                      "value":  "0x30",
-                                      "note":  "transform pointer per index"
-                                  },
-                    "hier_cnt":  {
-                                     "value":  "0x28",
-                                     "note":  "pointer to the uint32 node count"
-                                 },
                     "slots":  {
                                   "value":  "0x248",
                                   "note":  ""
@@ -1241,6 +1209,54 @@
                                        "value":  "0x62D09A0",
                                        "note":  "Transform.get_localToWorldMatrix"
                                    },
+                    "head_pos":  {
+                                     "value":  "0xE8",
+                                     "note":  ""
+                                 },
+                    "movement_view":  {
+                                          "value":  "0x20",
+                                          "note":  ""
+                                      },
+                    "move_transform":  {
+                                           "value":  "0x20",
+                                           "note":  ""
+                                       },
+                    "tr_hier":  {
+                                    "value":  "0x28",
+                                    "note":  "TransformAccess hierarchy"
+                                },
+                    "bone_idx":  {
+                                     "value":  "0x30",
+                                     "note":  "TransformAccess index"
+                                 },
+                    "hier_list":  {
+                                      "value":  "0x18",
+                                      "note":  "transform pointer array"
+                                  },
+                    "hier_par":  {
+                                     "value":  "0x20",
+                                     "note":  "parent index array"
+                                 },
+                    "trs_size":  {
+                                     "value":  "0x30",
+                                     "note":  ""
+                                 },
+                    "hier_ptrs":  {
+                                      "value":  "0x30",
+                                      "note":  "transform pointer per index"
+                                  },
+                    "hier_cnt":  {
+                                     "value":  "0x28",
+                                     "note":  "pointer to the uint32 node count"
+                                 },
+                    "arr_len":  {
+                                    "value":  "0x18",
+                                    "note":  "Il2CppArray.length"
+                                },
+                    "dict_buckets":  {
+                                         "value":  "0x10",
+                                         "note":  "Dictionary.buckets"
+                                     },
                     "cham_ti":  {
                                     "value":  "0x81718A8",
                                     "note":  "RenderingUtils"
@@ -1268,6 +1284,46 @@
                     "cham_bristle_r":  {
                                            "value":  "0x70",
                                            "note":  "LodCharacterView.BristleRenderer"
-                                       }
+                                       },
+                    "cham_upd":  {
+                                     "value":  "0x924F50",
+                                     "note":  "BattleEntitiesUpdater.Update"
+                                 },
+                    "cham_custom":  {
+                                        "value":  "0x3600980",
+                                        "note":  "CharacterCustomizationView.Customize"
+                                    },
+                    "cham_model":  {
+                                       "value":  "0xD8",
+                                       "note":  ""
+                                   },
+                    "cham_color":  {
+                                       "value":  "0xD0",
+                                       "note":  ""
+                                   },
+                    "cham_queue":  {
+                                       "value":  "0x6234410",
+                                       "note":  "Material.set_renderQueue"
+                                   },
+                    "cham_mat_ti":  {
+                                        "value":  "0x81688E0",
+                                        "note":  ""
+                                    },
+                    "cham_skin_ti":  {
+                                         "value":  "0x81DDB70",
+                                         "note":  ""
+                                     },
+                    "cham_mesh_ti":  {
+                                         "value":  "0x8171010",
+                                         "note":  ""
+                                     },
+                    "cham_sex_ti":  {
+                                        "value":  "0x81CFD70",
+                                        "note":  ""
+                                    },
+                    "cham_res_ti":  {
+                                        "value":  "0x817F040",
+                                        "note":  ""
+                                    }
                 }
 }
