@@ -1,12 +1,12 @@
 #pragma once
 /* rob run offsets
-   dumped: 2026-11-17 14:14
+   dumped: 2026-11-20 17:14
    dumper: Il2CppDumper 3.2.1
 */
 #include <cstdint>
 
 namespace off {
-    constexpr std::uintptr_t battle_model_ti = 136248776;
+    constexpr std::uintptr_t battle_model_ti = 136615656;
 
     constexpr std::uintptr_t battle_entities = 0x90;
     constexpr std::uintptr_t battle_camera = 0x358;
@@ -44,7 +44,7 @@ namespace off {
     constexpr std::uintptr_t char_shot_interp = 0x108; // BattleCharacterModel.ShotInterpolationModel
     constexpr std::uintptr_t interp_pos = 0x10; // ShotInterpolationModel._transform
     constexpr std::uintptr_t interp_look = 0x1C; // ShotInterpolationModel._lookDirection
-    constexpr std::uintptr_t weapon_descs_ti = 136059640; // WeaponDescriptions TypeInfo
+    constexpr std::uintptr_t weapon_descs_ti = 136442720; // WeaponDescriptions TypeInfo
     constexpr std::uintptr_t weapon_shot_cd = 0x20; // WeaponDescription.ShotCooldown
     constexpr std::uintptr_t battle_shot_auto = 0x1F8;
     constexpr std::uintptr_t battle_shot_single = 0x200;
@@ -52,21 +52,21 @@ namespace off {
     constexpr std::uintptr_t input_look = 0x18; // BattleInputModel._lookDirection, yaw and pitch in radians
     constexpr std::uintptr_t input_look_changed = 0x32;
     constexpr std::uintptr_t input_shot_look = 0x38;
-    constexpr std::uintptr_t look_skip = 0xA8EED6;
-    constexpr std::uintptr_t shot_store_manual = 0xA8F03D;
-    constexpr std::uintptr_t shot_store_auto = 0xA80307;
-    constexpr std::uintptr_t shot_cur_xy_manual = 0xA8F000;
-    constexpr std::uintptr_t shot_cur_z_manual = 0xA8F009;
-    constexpr std::uintptr_t shot_prev_xy_manual = 0xA8F012;
-    constexpr std::uintptr_t shot_prev_z_manual = 0xA8F01B;
-    constexpr std::uintptr_t shot_cur_xy_auto = 0xA802C1;
-    constexpr std::uintptr_t shot_cur_z_auto = 0xA802CA;
-    constexpr std::uintptr_t shot_prev_xy_auto = 0xA802D3;
-    constexpr std::uintptr_t shot_prev_z_auto = 0xA802DC;
-    constexpr std::uintptr_t spread_fn = 0x432EEA0; // ApplySpreadToShotDirection
-    constexpr std::uintptr_t spread_mul_x = 0x432F034; // ApplySpreadToShotDirection, sx *= spread
-    constexpr std::uintptr_t spread_mul_y = 0x432F062; // sy *= spread
-    constexpr std::uintptr_t recoil_upd = 0xB1DC60; // SpriteRecoilModelUpdater.Update
+    constexpr std::uintptr_t look_skip = 0xA95BE6;
+    constexpr std::uintptr_t shot_store_manual = 0xA95D4D;
+    constexpr std::uintptr_t shot_store_auto = 0xA87017;
+    constexpr std::uintptr_t shot_cur_xy_manual = 0xA95D10;
+    constexpr std::uintptr_t shot_cur_z_manual = 0xA95D19;
+    constexpr std::uintptr_t shot_prev_xy_manual = 0xA95D22;
+    constexpr std::uintptr_t shot_prev_z_manual = 0xA95D2B;
+    constexpr std::uintptr_t shot_cur_xy_auto = 0xA86FD1;
+    constexpr std::uintptr_t shot_cur_z_auto = 0xA86FDA;
+    constexpr std::uintptr_t shot_prev_xy_auto = 0xA86FE3;
+    constexpr std::uintptr_t shot_prev_z_auto = 0xA86FEC;
+    constexpr std::uintptr_t spread_fn = 0x4361000; // ApplySpreadToShotDirection
+    constexpr std::uintptr_t spread_mul_x = 0x4361194; // ApplySpreadToShotDirection, sx *= spread
+    constexpr std::uintptr_t spread_mul_y = 0x43611C2; // sy *= spread
+    constexpr std::uintptr_t recoil_upd = 0xB248D0; // SpriteRecoilModelUpdater.Update
 
     constexpr std::uintptr_t cam_pos = 0x10;
     constexpr std::uintptr_t cam_fwd = 0x3C;
@@ -96,7 +96,7 @@ namespace off {
     constexpr std::uintptr_t repl_pos = 0x10;
     constexpr std::uintptr_t prim_value = 0x18;
 
-    constexpr std::uintptr_t updater_ti = 136234496;
+    constexpr std::uintptr_t updater_ti = 136601096;
     constexpr std::uintptr_t updater_battle = 0x70;
     constexpr std::uintptr_t updater_global = 0x78;
     constexpr std::uintptr_t view_updaters = 0x38;
@@ -111,8 +111,8 @@ namespace off {
     constexpr std::uintptr_t str_len = 0x10;
     constexpr std::uintptr_t str_chars = 0x14;
 
-    constexpr std::uintptr_t gc_nsects = 0x864F378; // Boehm GC_n_heap_sects
-    constexpr std::uintptr_t gc_sects = 0x86D7F40; // GC_heap_sects {start, bytes}
+    constexpr std::uintptr_t gc_nsects = 0x86A7C78; // Boehm GC_n_heap_sects
+    constexpr std::uintptr_t gc_sects = 0x8730840; // GC_heap_sects {start, bytes}
     constexpr std::uintptr_t gc_max_sects = 0x14000;
 
     constexpr std::uintptr_t peb_ldr = 0x18;
@@ -126,7 +126,7 @@ namespace off {
     constexpr std::uintptr_t entity_client = 0x20; // BattleCharacterEntityModel.ClientModel
     constexpr std::uintptr_t client_set_move = 0x30; // CharacterClientModel.SetMovement
     constexpr std::uintptr_t set_move_x = 0x10; // y +0x14, z +0x18, vx +0x1C, vz +0x20, ts +0x28
-    constexpr std::uintptr_t cmcore_ti = 135763440; // CinemachineCore TypeInfo
+    constexpr std::uintptr_t cmcore_ti = 136134616; // CinemachineCore TypeInfo
     constexpr std::uintptr_t il2_statics = 0xB8; // Il2CppClass.static_fields
     constexpr std::uintptr_t cmcore_inst = 0x8; // CinemachineCore.sInstance
     constexpr std::uintptr_t cmcore_brains = 0x10; // CinemachineCore.mActiveBrains
@@ -134,8 +134,8 @@ namespace off {
     constexpr std::uintptr_t list_size = 0x18; // List<T>._size
     constexpr std::uintptr_t brain_cam = 0x50; // CinemachineBrain.m_OutputCamera
     constexpr std::uintptr_t cam_fov = 0x170; // native Camera m_VerticalFOV
-    constexpr std::uintptr_t item_desc_ti = 136410584; // InventoryItemDescriptions TypeInfo
-    constexpr std::uintptr_t slot_ti = 136426488; // InventorySlot TypeInfo
+    constexpr std::uintptr_t item_desc_ti = 136787784; // InventoryItemDescriptions TypeInfo
+    constexpr std::uintptr_t slot_ti = 136803696; // InventorySlot TypeInfo
     constexpr std::uintptr_t desc_type = 0x20;
     constexpr std::uintptr_t desc_rarity = 0x30;
     constexpr std::uintptr_t desc_ammo_fn = 0x68;
@@ -303,29 +303,29 @@ namespace off {
     constexpr std::uintptr_t cust_bald_mat = 0x98;
     constexpr std::uintptr_t cust_bristle_mat = 0xA0;
     constexpr std::uintptr_t cust_brows_mat = 0x78;
-    constexpr std::uintptr_t rend_get_mats = 0x6224D30; // Renderer.get_materials
-    constexpr std::uintptr_t rend_set_mats = 0x6227360; // Renderer.set_materials
-    constexpr std::uintptr_t rend_set_shared = 0x6225B30; // Renderer.set_sharedMaterial
-    constexpr std::uintptr_t mat_set_color = 0x62469B0; // Material.set_color
-    constexpr std::uintptr_t mat_set_shader = 0x62472F0; // Material.set_shader
-    constexpr std::uintptr_t shader_find = 0x6229FC0; // Shader.Find
-    constexpr std::uintptr_t mat_get_shader = 0x62468F0; // Material.get_shader
-    constexpr std::uintptr_t mat_set_int = 0x62438B0; // Material.SetInt
-    constexpr std::uintptr_t mat_set_color_name = 0x62429E0; // Material.SetColor
-    constexpr std::uintptr_t rend_bounds = 0x62260E0; // Renderer.get_bounds
-    constexpr std::uintptr_t rend_enabled = 0x62261C0; // Renderer.get_enabled
-    constexpr std::uintptr_t skin_bake = 0x625D000; // SkinnedMeshRenderer.BakeMesh
-    constexpr std::uintptr_t skin_root = 0x625DC60; // SkinnedMeshRenderer.get_rootBone
-    constexpr std::uintptr_t mesh_ctor = 0x625AE60; // Mesh.ctor
-    constexpr std::uintptr_t mesh_readable = 0x625B660; // Mesh.get_isReadable
-    constexpr std::uintptr_t mesh_vcount = 0x625BCC0; // Mesh.get_vertexCount
-    constexpr std::uintptr_t mesh_vstride = 0x6251BF0; // Mesh.GetVertexBufferStride
-    constexpr std::uintptr_t mesh_vptr = 0x624F510; // Mesh.GetNativeVertexBufferPtr
-    constexpr std::uintptr_t mesh_iptr = 0x624F450; // Mesh.GetNativeIndexBufferPtr
-    constexpr std::uintptr_t mesh_iformat = 0x625B520; // Mesh.get_indexFormat
-    constexpr std::uintptr_t mesh_icount = 0x624D7D0; // Mesh.GetIndexCount
-    constexpr std::uintptr_t comp_transform = 0x6290F10; // Component.get_transform
-    constexpr std::uintptr_t trs_matrix = 0x62E3780; // Transform.get_localToWorldMatrix
+    constexpr std::uintptr_t rend_get_mats = 0x626D900; // Renderer.get_materials
+    constexpr std::uintptr_t rend_set_mats = 0x626FF30; // Renderer.set_materials
+    constexpr std::uintptr_t rend_set_shared = 0x626E700; // Renderer.set_sharedMaterial
+    constexpr std::uintptr_t mat_set_color = 0x628F580; // Material.set_color
+    constexpr std::uintptr_t mat_set_shader = 0x628FEC0; // Material.set_shader
+    constexpr std::uintptr_t shader_find = 0x6272B90; // Shader.Find
+    constexpr std::uintptr_t mat_get_shader = 0x628F4C0; // Material.get_shader
+    constexpr std::uintptr_t mat_set_int = 0x628C480; // Material.SetInt
+    constexpr std::uintptr_t mat_set_color_name = 0x628B5B0; // Material.SetColor
+    constexpr std::uintptr_t rend_bounds = 0x626ECB0; // Renderer.get_bounds
+    constexpr std::uintptr_t rend_enabled = 0x626ED90; // Renderer.get_enabled
+    constexpr std::uintptr_t skin_bake = 0x62A5BD0; // SkinnedMeshRenderer.BakeMesh
+    constexpr std::uintptr_t skin_root = 0x62A6830; // SkinnedMeshRenderer.get_rootBone
+    constexpr std::uintptr_t mesh_ctor = 0x62A3A30; // Mesh.ctor
+    constexpr std::uintptr_t mesh_readable = 0x62A4230; // Mesh.get_isReadable
+    constexpr std::uintptr_t mesh_vcount = 0x62A4890; // Mesh.get_vertexCount
+    constexpr std::uintptr_t mesh_vstride = 0x629A7C0; // Mesh.GetVertexBufferStride
+    constexpr std::uintptr_t mesh_vptr = 0x62980E0; // Mesh.GetNativeVertexBufferPtr
+    constexpr std::uintptr_t mesh_iptr = 0x6298020; // Mesh.GetNativeIndexBufferPtr
+    constexpr std::uintptr_t mesh_iformat = 0x62A40F0; // Mesh.get_indexFormat
+    constexpr std::uintptr_t mesh_icount = 0x62963A0; // Mesh.GetIndexCount
+    constexpr std::uintptr_t comp_transform = 0x62D9AE0; // Component.get_transform
+    constexpr std::uintptr_t trs_matrix = 0x632C350; // Transform.get_localToWorldMatrix
 }
 
 namespace bone {
@@ -347,21 +347,21 @@ namespace il2 {
 }
 
 namespace cham {
-    constexpr std::uintptr_t cham_ti = 0x8188BE8; // RenderingUtils
+    constexpr std::uintptr_t cham_ti = 0x81E4AF0; // RenderingUtils
     constexpr std::uintptr_t cham_mat = 0x88; // RenderingUtils.s_ErrorMaterial
-    constexpr std::uintptr_t cham_ctor = 0x6245C20; // Material.ctor(Shader)
-    constexpr std::uintptr_t cham_shared = 0x6225B30; // Renderer.set_sharedMaterial
+    constexpr std::uintptr_t cham_ctor = 0x628E7F0; // Material.ctor(Shader)
+    constexpr std::uintptr_t cham_shared = 0x626E700; // Renderer.set_sharedMaterial
     constexpr std::uintptr_t cham_beard = 0x10; // LodCharacterView._beard
     constexpr std::uintptr_t cham_bald_r = 0x58; // LodCharacterView.BaldRenderer
     constexpr std::uintptr_t cham_bristle_r = 0x70; // LodCharacterView.BristleRenderer
-    constexpr std::uintptr_t cham_upd = 0x931040; // BattleEntitiesUpdater.Update
-    constexpr std::uintptr_t cham_custom = 0x3621F30; // CharacterCustomizationView.Customize
+    constexpr std::uintptr_t cham_upd = 0x9363D0; // BattleEntitiesUpdater.Update
+    constexpr std::uintptr_t cham_custom = 0x36424F0; // CharacterCustomizationView.Customize
     constexpr std::uintptr_t cham_model = 0xD8;
     constexpr std::uintptr_t cham_color = 0xD0;
-    constexpr std::uintptr_t cham_queue = 0x62471F0; // Material.set_renderQueue
-    constexpr std::uintptr_t cham_mat_ti = 0x817FA80;
-    constexpr std::uintptr_t cham_skin_ti = 0x81F62C0;
-    constexpr std::uintptr_t cham_mesh_ti = 0x81881B0;
-    constexpr std::uintptr_t cham_sex_ti = 0x81E75E8;
-    constexpr std::uintptr_t cham_res_ti = 0x8196378;
+    constexpr std::uintptr_t cham_queue = 0x628FDC0; // Material.set_renderQueue
+    constexpr std::uintptr_t cham_mat_ti = 0x81DBB40;
+    constexpr std::uintptr_t cham_skin_ti = 0x82521A0;
+    constexpr std::uintptr_t cham_mesh_ti = 0x81E43F8;
+    constexpr std::uintptr_t cham_sex_ti = 0x8240CD0;
+    constexpr std::uintptr_t cham_res_ti = 0x81F23B0;
 }

@@ -1,12 +1,12 @@
 {
     "Game":  "Rob Run",
-    "Dumped At":  "2026-11-17 14:14",
+    "Dumped At":  "2026-11-20 17:14",
     "Dumped With":  "Il2CppDumper",
     "Dumper Version":  "3.2.1",
     "Total Offsets":  330,
     "Offsets":  {
                     "battle_model_ti":  {
-                                            "value":  "136248776",
+                                            "value":  "136615656",
                                             "note":  ""
                                         },
                     "battle_entities":  {
@@ -154,7 +154,7 @@
                                         "note":  "ShotInterpolationModel._lookDirection"
                                     },
                     "weapon_descs_ti":  {
-                                            "value":  "136059640",
+                                            "value":  "136442720",
                                             "note":  "WeaponDescriptions TypeInfo"
                                         },
                     "weapon_shot_cd":  {
@@ -186,63 +186,63 @@
                                             "note":  ""
                                         },
                     "look_skip":  {
-                                      "value":  "0xA8EED6",
+                                      "value":  "0xA95BE6",
                                       "note":  ""
                                   },
                     "shot_store_manual":  {
-                                              "value":  "0xA8F03D",
+                                              "value":  "0xA95D4D",
                                               "note":  ""
                                           },
                     "shot_store_auto":  {
-                                            "value":  "0xA80307",
+                                            "value":  "0xA87017",
                                             "note":  ""
                                         },
                     "shot_cur_xy_manual":  {
-                                               "value":  "0xA8F000",
+                                               "value":  "0xA95D10",
                                                "note":  ""
                                            },
                     "shot_cur_z_manual":  {
-                                              "value":  "0xA8F009",
+                                              "value":  "0xA95D19",
                                               "note":  ""
                                           },
                     "shot_prev_xy_manual":  {
-                                                "value":  "0xA8F012",
+                                                "value":  "0xA95D22",
                                                 "note":  ""
                                             },
                     "shot_prev_z_manual":  {
-                                               "value":  "0xA8F01B",
+                                               "value":  "0xA95D2B",
                                                "note":  ""
                                            },
                     "shot_cur_xy_auto":  {
-                                             "value":  "0xA802C1",
+                                             "value":  "0xA86FD1",
                                              "note":  ""
                                          },
                     "shot_cur_z_auto":  {
-                                            "value":  "0xA802CA",
+                                            "value":  "0xA86FDA",
                                             "note":  ""
                                         },
                     "shot_prev_xy_auto":  {
-                                              "value":  "0xA802D3",
+                                              "value":  "0xA86FE3",
                                               "note":  ""
                                           },
                     "shot_prev_z_auto":  {
-                                             "value":  "0xA802DC",
+                                             "value":  "0xA86FEC",
                                              "note":  ""
                                          },
                     "spread_fn":  {
-                                      "value":  "0x432EEA0",
+                                      "value":  "0x4361000",
                                       "note":  "ApplySpreadToShotDirection"
                                   },
                     "spread_mul_x":  {
-                                         "value":  "0x432F034",
+                                         "value":  "0x4361194",
                                          "note":  "ApplySpreadToShotDirection, sx *= spread"
                                      },
                     "spread_mul_y":  {
-                                         "value":  "0x432F062",
+                                         "value":  "0x43611C2",
                                          "note":  "sy *= spread"
                                      },
                     "recoil_upd":  {
-                                       "value":  "0xB1DC60",
+                                       "value":  "0xB248D0",
                                        "note":  "SpriteRecoilModelUpdater.Update"
                                    },
                     "cam_pos":  {
@@ -338,7 +338,7 @@
                                        "note":  ""
                                    },
                     "updater_ti":  {
-                                       "value":  "136234496",
+                                       "value":  "136601096",
                                        "note":  ""
                                    },
                     "updater_battle":  {
@@ -390,11 +390,11 @@
                                       "note":  ""
                                   },
                     "gc_nsects":  {
-                                      "value":  "0x864F378",
+                                      "value":  "0x86A7C78",
                                       "note":  "Boehm GC_n_heap_sects"
                                   },
                     "gc_sects":  {
-                                     "value":  "0x86D7F40",
+                                     "value":  "0x8730840",
                                      "note":  "GC_heap_sects {start, bytes}"
                                  },
                     "gc_max_sects":  {
@@ -442,7 +442,7 @@
                                        "note":  "y +0x14, z +0x18, vx +0x1C, vz +0x20, ts +0x28"
                                    },
                     "cmcore_ti":  {
-                                      "value":  "135763440",
+                                      "value":  "136134616",
                                       "note":  "CinemachineCore TypeInfo"
                                   },
                     "il2_statics":  {
@@ -474,11 +474,11 @@
                                     "note":  "native Camera m_VerticalFOV"
                                 },
                     "item_desc_ti":  {
-                                         "value":  "136410584",
+                                         "value":  "136787784",
                                          "note":  "InventoryItemDescriptions TypeInfo"
                                      },
                     "slot_ti":  {
-                                    "value":  "136426488",
+                                    "value":  "136803696",
                                     "note":  "InventorySlot TypeInfo"
                                 },
                     "desc_type":  {
@@ -1118,95 +1118,95 @@
                                            "note":  ""
                                        },
                     "rend_get_mats":  {
-                                          "value":  "0x6224D30",
+                                          "value":  "0x626D900",
                                           "note":  "Renderer.get_materials"
                                       },
                     "rend_set_mats":  {
-                                          "value":  "0x6227360",
+                                          "value":  "0x626FF30",
                                           "note":  "Renderer.set_materials"
                                       },
                     "rend_set_shared":  {
-                                            "value":  "0x6225B30",
+                                            "value":  "0x626E700",
                                             "note":  "Renderer.set_sharedMaterial"
                                         },
                     "mat_set_color":  {
-                                          "value":  "0x62469B0",
+                                          "value":  "0x628F580",
                                           "note":  "Material.set_color"
                                       },
                     "mat_set_shader":  {
-                                           "value":  "0x62472F0",
+                                           "value":  "0x628FEC0",
                                            "note":  "Material.set_shader"
                                        },
                     "shader_find":  {
-                                        "value":  "0x6229FC0",
+                                        "value":  "0x6272B90",
                                         "note":  "Shader.Find"
                                     },
                     "mat_get_shader":  {
-                                           "value":  "0x62468F0",
+                                           "value":  "0x628F4C0",
                                            "note":  "Material.get_shader"
                                        },
                     "mat_set_int":  {
-                                        "value":  "0x62438B0",
+                                        "value":  "0x628C480",
                                         "note":  "Material.SetInt"
                                     },
                     "mat_set_color_name":  {
-                                               "value":  "0x62429E0",
+                                               "value":  "0x628B5B0",
                                                "note":  "Material.SetColor"
                                            },
                     "rend_bounds":  {
-                                        "value":  "0x62260E0",
+                                        "value":  "0x626ECB0",
                                         "note":  "Renderer.get_bounds"
                                     },
                     "rend_enabled":  {
-                                         "value":  "0x62261C0",
+                                         "value":  "0x626ED90",
                                          "note":  "Renderer.get_enabled"
                                      },
                     "skin_bake":  {
-                                      "value":  "0x625D000",
+                                      "value":  "0x62A5BD0",
                                       "note":  "SkinnedMeshRenderer.BakeMesh"
                                   },
                     "skin_root":  {
-                                      "value":  "0x625DC60",
+                                      "value":  "0x62A6830",
                                       "note":  "SkinnedMeshRenderer.get_rootBone"
                                   },
                     "mesh_ctor":  {
-                                      "value":  "0x625AE60",
+                                      "value":  "0x62A3A30",
                                       "note":  "Mesh.ctor"
                                   },
                     "mesh_readable":  {
-                                          "value":  "0x625B660",
+                                          "value":  "0x62A4230",
                                           "note":  "Mesh.get_isReadable"
                                       },
                     "mesh_vcount":  {
-                                        "value":  "0x625BCC0",
+                                        "value":  "0x62A4890",
                                         "note":  "Mesh.get_vertexCount"
                                     },
                     "mesh_vstride":  {
-                                         "value":  "0x6251BF0",
+                                         "value":  "0x629A7C0",
                                          "note":  "Mesh.GetVertexBufferStride"
                                      },
                     "mesh_vptr":  {
-                                      "value":  "0x624F510",
+                                      "value":  "0x62980E0",
                                       "note":  "Mesh.GetNativeVertexBufferPtr"
                                   },
                     "mesh_iptr":  {
-                                      "value":  "0x624F450",
+                                      "value":  "0x6298020",
                                       "note":  "Mesh.GetNativeIndexBufferPtr"
                                   },
                     "mesh_iformat":  {
-                                         "value":  "0x625B520",
+                                         "value":  "0x62A40F0",
                                          "note":  "Mesh.get_indexFormat"
                                      },
                     "mesh_icount":  {
-                                        "value":  "0x624D7D0",
+                                        "value":  "0x62963A0",
                                         "note":  "Mesh.GetIndexCount"
                                     },
                     "comp_transform":  {
-                                           "value":  "0x6290F10",
+                                           "value":  "0x62D9AE0",
                                            "note":  "Component.get_transform"
                                        },
                     "trs_matrix":  {
-                                       "value":  "0x62E3780",
+                                       "value":  "0x632C350",
                                        "note":  "Transform.get_localToWorldMatrix"
                                    },
                     "head_pos":  {
@@ -1258,7 +1258,7 @@
                                          "note":  "Dictionary.buckets"
                                      },
                     "cham_ti":  {
-                                    "value":  "0x8188BE8",
+                                    "value":  "0x81E4AF0",
                                     "note":  "RenderingUtils"
                                 },
                     "cham_mat":  {
@@ -1266,11 +1266,11 @@
                                      "note":  "RenderingUtils.s_ErrorMaterial"
                                  },
                     "cham_ctor":  {
-                                      "value":  "0x6245C20",
+                                      "value":  "0x628E7F0",
                                       "note":  "Material.ctor(Shader)"
                                   },
                     "cham_shared":  {
-                                        "value":  "0x6225B30",
+                                        "value":  "0x626E700",
                                         "note":  "Renderer.set_sharedMaterial"
                                     },
                     "cham_beard":  {
@@ -1286,11 +1286,11 @@
                                            "note":  "LodCharacterView.BristleRenderer"
                                        },
                     "cham_upd":  {
-                                     "value":  "0x931040",
+                                     "value":  "0x9363D0",
                                      "note":  "BattleEntitiesUpdater.Update"
                                  },
                     "cham_custom":  {
-                                        "value":  "0x3621F30",
+                                        "value":  "0x36424F0",
                                         "note":  "CharacterCustomizationView.Customize"
                                     },
                     "cham_model":  {
@@ -1302,27 +1302,27 @@
                                        "note":  ""
                                    },
                     "cham_queue":  {
-                                       "value":  "0x62471F0",
+                                       "value":  "0x628FDC0",
                                        "note":  "Material.set_renderQueue"
                                    },
                     "cham_mat_ti":  {
-                                        "value":  "0x817FA80",
+                                        "value":  "0x81DBB40",
                                         "note":  ""
                                     },
                     "cham_skin_ti":  {
-                                         "value":  "0x81F62C0",
+                                         "value":  "0x82521A0",
                                          "note":  ""
                                      },
                     "cham_mesh_ti":  {
-                                         "value":  "0x81881B0",
+                                         "value":  "0x81E43F8",
                                          "note":  ""
                                      },
                     "cham_sex_ti":  {
-                                        "value":  "0x81E75E8",
+                                        "value":  "0x8240CD0",
                                         "note":  ""
                                     },
                     "cham_res_ti":  {
-                                        "value":  "0x8196378",
+                                        "value":  "0x81F23B0",
                                         "note":  ""
                                     }
                 }
